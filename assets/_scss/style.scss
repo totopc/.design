@@ -326,7 +326,16 @@ main{
 .rounded-circle{
     border-radius: 50%;
 }
-  
+.rounded-container{
+    border-radius: 16px;
+} 
+.rounded-top{
+    border-radius: 16px 16px 0 0;
+} 
+.rounded-bottom{
+    border-radius: 0 0 16px 16px;
+} 
+
 a[name]:before { 
 	display: block; 
     content: " "; 

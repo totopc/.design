@@ -127,17 +127,19 @@ html { box-sizing: border-box; }
 
 *, *::after, *::before { box-sizing: inherit; }
 
-body { background: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-feature-settings: "liga", "dlig"; color: #434F58; font-family: "Proxima Nova", sans-serif; font-size: 1rem; line-height: 1.5; }
+body { background: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-feature-settings: "liga", "dlig"; color: #434F58; font-family: "Gilroy", sans-serif; font-size: 1rem; line-height: 1.5; }
 
-h1, h2, h3, h4 { font-family: "Ubuntu", sans-serif; font-weight: 400; }
+h1, h2, h3, h4 { font-family: "Gilroy", sans-serif; font-weight: 400; }
 
-h1 { font-size: 2.5rem; line-height: calc(1em + 8px); margin-bottom: 2rem; }
+h1 { font-size: 3rem; line-height: calc(1em + 8px); margin-bottom: 2rem; }
 
 h2 { font-size: 2rem; line-height: calc(1em + 8px); margin-bottom: 1.5rem; }
 
-h3 { font-size: 1.5rem; line-height: calc(1em + 8px); margin-bottom: 1.5rem; }
+h3 { font-size: 1.75rem; line-height: calc(1em + 8px); margin-bottom: 1.5rem; }
 
-h4 { font-size: 1.25rem; line-height: 2rem; margin-bottom: 1rem; }
+h4 { font-size: 1.5rem; line-height: calc(1em + 8px); margin-bottom: 1rem; }
+
+h5 { font-size: 1.13rem; line-height: calc(1em + 8px); margin-bottom: 1rem; }
 
 a { color: #0073EC; text-decoration: none; }
 
@@ -153,7 +155,7 @@ img { max-width: 100%; height: auto; }
 
 p, section, img { margin-bottom: 1rem; }
 
-hr { margin: 2rem 0; border: none; border-bottom: 1px solid #E0E4E8; }
+hr { margin: 2rem 0; border: none; border-bottom: 2px solid #0073EC; }
 
 code { padding: 0.4375rem; font-size: 1rem; line-height: 1rem; display: inline-block; border: 1px solid #F4F6F9; border-radius: 3px; background: #434F58; color: #ffffff; font-family: monospace; }
 
@@ -182,6 +184,22 @@ a[disabled] { pointer-events: none; }
 @font-face { font-family: "Proxima Nova"; font-style: normal; font-weight: bold; src: url("../fonts/proxima-nova/proximanova-bold-webfont.eot?") format("eot"), url("../fonts/proxima-nova/proximanova-bold-webfont.woff2") format("woff2"), url("../fonts/proxima-nova/proximanova-bold-webfont.woff") format("woff"), url("../fonts/proxima-nova/proximanova-bold-webfont.ttf") format("truetype"), url('../fonts/proxima-nova/proximanova-bold-webfont.svg#str-replace("Proxima Nova", " ", "_")') format("svg"); }
 
 @font-face { font-family: "Proxima Nova"; font-style: italic; font-weight: bold; src: url("../fonts/proxima-nova/proximanova-bolditalic-webfont.eot?") format("eot"), url("../fonts/proxima-nova/proximanova-bolditalic-webfont.woff2") format("woff2"), url("../fonts/proxima-nova/proximanova-bolditalic-webfont.woff") format("woff"), url("../fonts/proxima-nova/proximanova-bolditalic-webfont.ttf") format("truetype"), url('../fonts/proxima-nova/proximanova-bolditalic-webfont.svg#str-replace("Proxima Nova", " ", "_")') format("svg"); }
+
+/*
+
+	Gilroy. Yeeet!!! I HATE CODING!!!
+
+	Usage:
+	- font-family: 'Gilroy', sans-serif;
+
+*/
+@font-face { font-family: "Gilroy"; font-style: normal; font-weight: 300; src: url("../fonts/gilroy/gilroy-r.eot?") format("eot"), url("../fonts/gilroy/gilroy-r.woff2") format("woff2"), url("../fonts/gilroy/gilroy-r.woff") format("woff"), url("../fonts/gilroy/gilroy-r.ttf") format("truetype"), url('../fonts/gilroy/gilroy-r.svg#str-replace("Gilroy", " ", "_")') format("svg"); }
+
+@font-face { font-family: "Gilroy"; font-style: normal; font-weight: 400; src: url("../fonts/gilroy/gilroy-m.eot?") format("eot"), url("../fonts/gilroy/gilroy-m.woff2") format("woff2"), url("../fonts/gilroy/gilroy-m.woff") format("woff"), url("../fonts/gilroy/gilroy-m.ttf") format("truetype"), url('../fonts/gilroy/gilroy-m.svg#str-replace("Gilroy", " ", "_")') format("svg"); }
+
+@font-face { font-family: "Gilroy"; font-style: normal; font-weight: 500; src: url("../fonts/gilroy/gilroy-sb.eot?") format("eot"), url("../fonts/gilroy/gilroy-sb.woff2") format("woff2"), url("../fonts/gilroy/gilroy-sb.woff") format("woff"), url("../fonts/gilroy/gilroy-sb.ttf") format("truetype"), url('../fonts/gilroy/gilroy-sb.svg#str-replace("Gilroy", " ", "_")') format("svg"); }
+
+@font-face { font-family: "Gilroy"; font-style: normal; font-weight: 600; src: url("../fonts/gilroy/gilroy-b.eot?") format("eot"), url("../fonts/gilroy/gilroy-b.woff2") format("woff2"), url("../fonts/gilroy/gilroy-b.woff") format("woff"), url("../fonts/gilroy/gilroy-b.ttf") format("truetype"), url('../fonts/gilroy/gilroy-b.svg#str-replace("Gilroy", " ", "_")') format("svg"); }
 
 /*
 
@@ -227,7 +245,7 @@ Usage:
 
 .Accordion { overflow: hidden; background: #ffffff; border: solid 1px #E0E4E8; border-radius: 3px; margin-bottom: 1rem; }
 
-.Accordion .Accordion__toggle { font-size: 1.25rem; line-height: 2rem; font-family: "Proxima Nova", sans-serif; color: #0073EC; display: block; padding: 1rem; }
+.Accordion .Accordion__toggle { font-size: 1.5rem; line-height: calc(1em + 8px); font-family: "Gilroy", sans-serif; color: #0073EC; display: block; padding: 1rem; }
 
 .Accordion .Accordion__toggle:hover { cursor: pointer; }
 
@@ -253,7 +271,7 @@ Usage:
 
 .Alert *:last-child { margin-bottom: 0; }
 
-.Alert__heading { font-weight: 600; font-family: "Ubuntu", sans-serif; margin: 0; }
+.Alert__heading { font-weight: 600; font-family: "Gilroy", sans-serif; margin: 0; }
 
 .Alert--success { background: #E5FEFF; border-left: 0.5rem solid #00CAAA; }
 
@@ -287,7 +305,7 @@ Usage:
 
 .Toaster--positive .Toaster__type svg * { fill: #E5FEFF; }
 
-.Toaster__heading { padding: 1.5em; width: 75%; transform: translateX(33%); text-transform: uppercase; font: "Proxima Nova", sans-serif; font-size: 1rem; line-height: calc(1em + 8px); font-weight: 600; }
+.Toaster__heading { padding: 1.5em; width: 75%; transform: translateX(33%); text-transform: uppercase; font: "Gilroy", sans-serif; font-size: 1rem; line-height: calc(1em + 8px); font-weight: 600; }
 
 .Toaster__heading span { display: block; text-transform: initial; font-size: 1rem; line-height: calc(1em + 8px); font-weight: 400; margin-top: 0.5em; }
 
@@ -427,7 +445,7 @@ Buttons
 	Styleguide Base.Buttons
 
 */
-.Button { font-family: "Proxima Nova", sans-serif; color: #0073EC; background: transparent; border: solid 1px #0073EC; border-radius: 3px; display: inline-block; font-size: 1rem; line-height: 1rem; padding: 0.75rem 2rem 0.625rem; margin: 0; text-align: center; text-decoration: none; font-weight: 600; text-shadow: none; vertical-align: baseline; outline: none; transition: all 0.2s ease-in-out; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.Button { font-family: "Gilroy", sans-serif; color: #0073EC; background: transparent; border: solid 1px #0073EC; border-radius: 3px; display: inline-block; font-size: 1rem; line-height: 1rem; padding: 0.75rem 2rem 0.625rem; margin: 0; text-align: center; text-decoration: none; font-weight: 600; text-shadow: none; vertical-align: baseline; outline: none; transition: all 0.2s ease-in-out; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
 
 .Button:hover, .Button:active, .Button.is-open { color: #004186; text-decoration: none; border-color: #005ab9; box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1); }
 
@@ -532,17 +550,17 @@ Cards
 
 .Card.Card__number .Card__heading { margin-bottom: 0; }
 
-.Card.Card__number .Card__content { color: #071c26; font-size: 1.25rem; line-height: 2rem; }
+.Card.Card__number .Card__content { color: #071c26; font-size: 1.5rem; line-height: calc(1em + 8px); }
 
 .Card.Card__featured { border: solid 1px #0073EC; border-radius: 3px; }
 
-.Card.Card__featured .Card__heading { color: #071c26; font-size: 1.25rem; line-height: 2rem; margin-bottom: 1rem; }
+.Card.Card__featured .Card__heading { color: #071c26; font-size: 1.5rem; line-height: calc(1em + 8px); margin-bottom: 1rem; }
 
 .Card.Card__featured .Card__content { color: #071c26; }
 
 .Card.Card__plan { text-align: center; border: solid 1px #E0E4E8; border-radius: 3px; }
 
-.Card.Card__plan .Card__heading { color: #071c26; font-size: 1.5rem; line-height: calc(1em + 8px); margin-bottom: 1rem; }
+.Card.Card__plan .Card__heading { color: #071c26; font-size: 1.75rem; line-height: calc(1em + 8px); margin-bottom: 1rem; }
 
 .Card.Card__plan .Card__subheading { font-size: 0.875rem; line-height: 1rem; color: #0073EC; text-transform: uppercase; }
 
@@ -550,7 +568,7 @@ Cards
 
 .Card.Card__plan--highlighted { text-align: center; border: solid 1px #E0E4E8; border-radius: 3px; border: solid 1px #F59D00; }
 
-.Card.Card__plan--highlighted .Card__heading { color: #071c26; font-size: 1.5rem; line-height: calc(1em + 8px); margin-bottom: 1rem; }
+.Card.Card__plan--highlighted .Card__heading { color: #071c26; font-size: 1.75rem; line-height: calc(1em + 8px); margin-bottom: 1rem; }
 
 .Card.Card__plan--highlighted .Card__subheading { font-size: 0.875rem; line-height: 1rem; color: #0073EC; text-transform: uppercase; }
 
@@ -560,7 +578,7 @@ Cards
 
 .Card.Card__plan--extended { text-align: center; border: solid 1px #E0E4E8; border-radius: 3px; }
 
-.Card.Card__plan--extended .Card__heading { color: #071c26; font-size: 1.5rem; line-height: calc(1em + 8px); margin-bottom: 1rem; }
+.Card.Card__plan--extended .Card__heading { color: #071c26; font-size: 1.75rem; line-height: calc(1em + 8px); margin-bottom: 1rem; }
 
 .Card.Card__plan--extended .Card__subheading { font-size: 0.875rem; line-height: 1rem; color: #0073EC; text-transform: uppercase; }
 
@@ -671,7 +689,7 @@ Form Components
 
 .Form__description { color: #434F58; font-size: 1rem; line-height: calc(1em + 8px); font-weight: 400; margin-bottom: 0; }
 
-.Input { border: 1px solid #AFBFC9; outline: none; color: #434F58; font-size: 1rem; line-height: calc(1em + 8px); font-family: "Proxima Nova", sans-serif; display: block; margin: 0; margin-top: 0.5rem; width: 100%; transition: all .2s ease-in-out; border-radius: 3px; padding: 0.4375rem 0.5rem; /* to ensure align with baseline grid. */ }
+.Input { border: 1px solid #AFBFC9; outline: none; color: #434F58; font-size: 1rem; line-height: calc(1em + 8px); font-family: "Gilroy", sans-serif; display: block; margin: 0; margin-top: 0.5rem; width: 100%; transition: all .2s ease-in-out; border-radius: 3px; padding: 0.4375rem 0.5rem; /* to ensure align with baseline grid. */ }
 
 .Input:active, .Input:focus { box-shadow: 0 0 5px 0 #AFBFC9; }
 
@@ -691,13 +709,13 @@ Form Components
 
 textarea.Input { min-height: 140px; }
 
-.Select { border: 1px solid #AFBFC9; outline: none; color: #434F58; font-size: 1rem; line-height: calc(1em + 8px); font-family: "Proxima Nova", sans-serif; margin-top: 0.5rem; border-radius: 3px; -webkit-appearance: none; -moz-appearance: none; padding: 0.4375rem 0.5rem; background: #fff; display: block; width: 100%; transition: all .2s ease-in-out; }
+.Select { border: 1px solid #AFBFC9; outline: none; color: #434F58; font-size: 1rem; line-height: calc(1em + 8px); font-family: "Gilroy", sans-serif; margin-top: 0.5rem; border-radius: 3px; -webkit-appearance: none; -moz-appearance: none; padding: 0.4375rem 0.5rem; background: #fff; display: block; width: 100%; transition: all .2s ease-in-out; }
 
 .Select:hover, .Select:focus { background: #F4F6F9; }
 
 .Select--error, .Select--error:hover, .Select--error:focus { border-color: #FF4A48; }
 
-.Choice { color: #434F58; font-size: 1rem; line-height: calc(1em + 8px); font-family: "Proxima Nova", sans-serif; display: block; padding-left: 1.4rem; position: relative; margin-bottom: 0.5rem; }
+.Choice { color: #434F58; font-size: 1rem; line-height: calc(1em + 8px); font-family: "Gilroy", sans-serif; display: block; padding-left: 1.4rem; position: relative; margin-bottom: 0.5rem; }
 
 .Choice:hover input { border-color: #0073EC; }
 
@@ -737,7 +755,7 @@ textarea.Input { min-height: 140px; }
 
 .Icon.Icon--size-1, .Pagination .Icon--size-1.Pagination__icon { width: 1rem; height: 1rem; font-size: 1rem; }
 
-[class^="Icon--"], [class*="Icon--"] { font-family: 'dh-icon'; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; font-size: 1.5rem; line-height: calc(1em + 8px); text-decoration: inherit; text-rendering: optimizeLegibility; text-transform: none; -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; font-smoothing: antialiased; }
+[class^="Icon--"], [class*="Icon--"] { font-family: 'dh-icon'; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; font-size: 1.75rem; line-height: calc(1em + 8px); text-decoration: inherit; text-rendering: optimizeLegibility; text-transform: none; -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; font-smoothing: antialiased; }
 
 .supports-fontface .Icon--access:before { content: "\e900"; }
 
@@ -1198,7 +1216,7 @@ Table
 
 .Table thead, .Table__m thead { border-bottom: 2px solid #434F58; }
 
-.Table th, .Table__m th { padding: 1rem 0.5rem; font-size: 1rem; line-height: calc(1em + 8px); font-family: "Ubuntu", sans-serif; color: #000000; text-transform: uppercase; }
+.Table th, .Table__m th { padding: 1rem 0.5rem; font-size: 1rem; line-height: calc(1em + 8px); font-family: "Gilroy", sans-serif; color: #000000; text-transform: uppercase; }
 
 .Table .Tag, .Table__m .Tag { text-decoration: none; }
 
@@ -1412,7 +1430,7 @@ Usage:
 
 .slick-arrow.slick-hidden { display: none; }
 
-@media (min-width: 750px) { .Carousel { font-size: 1.25rem; line-height: 2rem; padding: 3rem; }
+@media (min-width: 750px) { .Carousel { font-size: 1.5rem; line-height: calc(1em + 8px); padding: 3rem; }
   .Carousel .Carousel__author span { display: inline-block; margin-right: 1rem; }
   .Carousel .Carousel__author strong { border-right: solid 1px #071c26; padding-right: 1rem; margin-right: 0.5rem; } }
 
@@ -1839,6 +1857,16 @@ Utilities
 
 .border-right-2 { border-right-width: 2px; }
 
+.border-3 { border-width: 3px; }
+
+.border-top-3 { border-top-width: 3px; }
+
+.border-bottom-3 { border-bottom-width: 3px; }
+
+.border-left-3 { border-left-width: 3px; }
+
+.border-right-3 { border-right-width: 3px; }
+
 .border-lighter-grey { border-color: #F4F6F9; }
 
 .border-light-grey { border-color: #E0E4E8; }
@@ -1862,6 +1890,8 @@ Utilities
 .border-c-g200 { border-color: #E0E4E8; }
 
 .border-c-g100 { border-color: #F4F6F9; }
+
+.border-c-r300 { border-color: #FF4A48; }
 
 /* Color Utilities These classes are used to define colors throughout the app. There are 3 different types of color classes: - Background color classes, which use the .bg- prefix - Text color classes, which use the .t- prefix - Combo color classes, which use the .c- prefix The combo color classes constrain text color based on background color. This is to ensure that contrast between an element's background and foreground colors always meets WCAG AA compliancy. It is recommended to use the combo color classes as often as possible. */
 /* Site Panel Specific */
@@ -3843,9 +3873,9 @@ TODO: DEPRECATE THESE, NEPHEW
   .p-y-15__l { padding-top: 7.5rem !important; padding-bottom: 7.5rem !important; }
   .p-y-16__l { padding-top: 8rem !important; padding-bottom: 8rem !important; } }
 
-.t-body { font-family: "Proxima Nova", sans-serif !important; }
+.t-body { font-family: "Gilroy", sans-serif !important; }
 
-.t-heading { font-family: "Ubuntu", sans-serif !important; }
+.t-heading { font-family: "Gilroy", sans-serif !important; }
 
 .t-mono { font-family: "Ubuntu Mono", monospace !important; }
 
@@ -3853,9 +3883,9 @@ TODO: DEPRECATE THESE, NEPHEW
 
 .t-1 { font-size: 1rem !important; line-height: 1.5rem; }
 
-.t-2 { font-size: 1.25rem !important; line-height: 2rem; }
+.t-2 { font-size: 1.5rem !important; line-height: 2rem; }
 
-.t-3 { font-size: 1.5rem !important; line-height: 2rem; }
+.t-3 { font-size: 1.75rem !important; line-height: 2rem; }
 
 .t-4 { font-size: 2rem !important; line-height: 2.5rem; }
 
@@ -3913,11 +3943,11 @@ TODO: DEPRECATE THESE, NEPHEW
 
 @media screen and (min-width: 750px) { .t-0__m { font-size: 0.875rem !important; line-height: 1rem; }
   .t-1__m { font-size: 1rem !important; line-height: 1.5rem; }
-  .t-2__m { font-size: 1.25rem !important; line-height: 2rem; }
-  .t-3__m { font-size: 1.5rem !important; line-height: 2rem; }
+  .t-2__m { font-size: 1.5rem !important; line-height: 2rem; }
+  .t-3__m { font-size: 1.75rem !important; line-height: 2rem; }
   .t-4__m { font-size: 2rem !important; line-height: 2.5rem; }
   .t-5__m { font-size: 2.5rem !important; line-height: 3rem; }
-  .t-6__m { font-size: 2.5rem !important; line-height: 3rem; }
+  .t-6__m { font-size: 3rem !important; line-height: 3rem; }
   .t-line-height-5__m { line-height: 3rem !important; }
   .t-line-height-4__m { line-height: 2.5rem !important; }
   .t-line-height-3__m { line-height: 2rem !important; }
@@ -3935,11 +3965,11 @@ TODO: DEPRECATE THESE, NEPHEW
 
 @media screen and (min-width: 1050px) { .t-0__l { font-size: 0.875rem !important; line-height: 1rem; }
   .t-1__l { font-size: 1rem !important; line-height: 1.5rem; }
-  .t-2__l { font-size: 1.25rem !important; line-height: 2rem; }
-  .t-3__l { font-size: 1.5rem !important; line-height: 2rem; }
+  .t-2__l { font-size: 1.5rem !important; line-height: 2rem; }
+  .t-3__l { font-size: 1.75rem !important; line-height: 2rem; }
   .t-4__l { font-size: 2rem !important; line-height: 2.5rem; }
   .t-5__l { font-size: 2.5rem !important; line-height: 3rem; }
-  .t-6__l { font-size: 2.5rem !important; line-height: 3rem; }
+  .t-6__l { font-size: 3rem !important; line-height: 3rem; }
   .t-line-height-5__l { line-height: 3rem !important; }
   .t-line-height-4__l { line-height: 2.5rem !important; }
   .t-line-height-3__l { line-height: 2rem !important; }
@@ -4094,11 +4124,11 @@ code.hljs { width: 100%; overflow-y: auto; margin-bottom: 1rem; padding: 0.5rem;
 
 .hljs-string { color: #1176A5; }
 
-.app { display: grid; grid-template-columns: max-content 1fr; grid-template-rows: min-content auto; grid-template-areas: "logo nav" "sidebar sidebar" "main main"; }
+.app { display: grid; grid-template-columns: max-content 1fr; grid-template-rows: min-content auto; grid-template-areas: "logo nav" "sidebar sidebar" "main main"; }
 
-@media (min-width: 800px) { .app { grid-template-columns: 18rem 1fr 18rem; grid-template-rows: min-content auto; grid-template-areas: "logo nav nav" "sidebar main main"; } }
+@media (min-width: 800px) { .app { grid-template-columns: 18rem 1fr 18rem; grid-template-rows: min-content auto; grid-template-areas: "logo nav nav" "sidebar main main"; } }
 
-@media (min-width: 1350px) { .app { grid-template-areas: "logo nav nav" "sidebar main toc"; } }
+@media (min-width: 1350px) { .app { grid-template-areas: "logo nav nav" "sidebar main toc"; } }
 
 .logo { grid-area: logo; position: sticky; position: -webkit-sticky; top: 0; padding: 0 .5rem; z-index: 100; background-color: #0073EC !important; }
 
@@ -4189,6 +4219,12 @@ main { grid-area: main; overflow: hidden; }
 .item__anchor:hover { background-color: rgba(255, 255, 255, 0.4); }
 
 .rounded-circle { border-radius: 50%; }
+
+.rounded-container { border-radius: 16px; }
+
+.rounded-top { border-radius: 16px 16px 0 0; }
+
+.rounded-bottom { border-radius: 0 0 16px 16px; }
 
 a[name]:before { display: block; content: " "; margin-top: -5rem; height: 5rem; visibility: hidden; margin-bottom: 0; }
 
