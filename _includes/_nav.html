@@ -12,11 +12,20 @@
                     </p>
                 </li>
                 <li>
-                    <a href="{{site.baseurl}}/design/guidelines" class="l-flex flex-justify-between{% if page.url == "
-                        /design/guidelines/" %} is-active{% endif %}">
+                    <a href="{{site.baseurl}}/design/guidelines" class="l-flex flex-justify-between{% if page.url == "/design/guidelines/" %} is-active{% endif %}">
                         Guidelines
                     </a>
                 </li>
+
+                <li>
+                    <a href="{{site.baseurl}}/principles" class="l-flex flex-justify-between{% if page.url == 
+                        '/principles/' %} is-active{% endif %}">
+                        Principles
+                    </a>
+                </li>
+
+                
+
 
                 <li>
                     <a class="l-flex flex-justify-between {% if page.url contains '/brand/' %}is-uncollapsed{% endif %}"
@@ -30,7 +39,7 @@
                                 fill="#0073EC" />
                         </svg>
                     </a>
-                    <ul class="subnav__subnav__subnav bg-c-b100 t-1">
+                    <ul class="subnav__subnav__subnav bg-c-b100 t-0">
                         <!-- LEVEL 3 -->
 
                         <li><a href="{{site.baseurl}}/brand" class="{% if page.url == " /brand/" %}is-active{% endif
@@ -52,7 +61,7 @@
                                 fill="#0073EC" />
                         </svg>
                     </a>
-                    <ul class="subnav__subnav__subnav bg-c-b100 t-1">
+                    <ul class="subnav__subnav__subnav bg-c-b100 t-0">
                         <!-- LEVEL 3 -->
 
                         <li><a href="{{site.baseurl}}/illustrations/guidelines" class="{% if page.url == "
@@ -75,13 +84,11 @@
                                 fill="#0073EC" />
                         </svg>
                     </a>
-                    <ul class="subnav__subnav__subnav bg-c-b100 t-1">
+                    <ul class="subnav__subnav__subnav bg-c-b100 t-0">
                         <!-- LEVEL 3 -->
 
-                        <li><a href="{{site.baseurl}}/iconography/product" class="{% if page.url == "
-                                /iconography/product/" %}is-active{% endif %}">Product</a></li>
-                        <li><a href="{{site.baseurl}}/iconography/standard/" class="{% if page.url == "
-                                /iconography/standard/" %}is-active{% endif %}">Standard</a></li>
+                        <li><a href="{{site.baseurl}}/iconography/product" class="{% if page.url =='/iconography/product/' %}is-active{% endif %}">Product</a></li>
+                        <li><a href="{{site.baseurl}}/iconography/standard/" class="{% if page.url == '/iconography/standard/'' %}is-active{% endif %}">Standard</a></li>
 
                     </ul>
                 </li>
