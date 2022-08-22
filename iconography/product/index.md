@@ -9,7 +9,7 @@ toc: false
 <hr/>
 <p class="m-bottom-4">Icons are powerful visual representations of our products and services. They are helpers that should not be overused. </p>
 <h3 class="m-bottom-2 t-bold">Product Icons</h3>
-<p>Product icons are designed to represent DreamHost-specific products. It is generally utilized on the website and paired with the product name. Download our full product icons <a href="">here</a>.</p>
+<p>Product icons are designed to represent DreamHost-specific products. It is generally utilized on the website and paired with the product name. Download our full product icons <a href="{{site.baseurl}}/assets/downloads/icons/product/all-product-icons.svg" alt="All Product Icons" download>here</a>.</p>
  <div class="row m-bottom-4">
 
 
@@ -18,7 +18,7 @@ toc: false
   <div class="bg-c-g100 rounded-top">
    <img class="flex m-auto p-2 w-100" src="{{site.baseurl}}/assets/product_icons/display/{{icons.url}}" alt="{{icons.name}}" />
    </div>
-   <p class="rounded-bottom p-2 bg-c-b300 t-center t-c-w100 ">Format: <a class="t-c-w100"  href ="{{site.baseurl}}/assets/product_icons/display/{{icons.url}}">SVG</a> </p>
+   <p class="rounded-bottom p-2 bg-c-b300 t-center t-c-w100 ">Format: <a class="t-c-w100"  href ="{{site.baseurl}}/assets/downloads/icons/product/{{icons.url}}" download>SVG</a> </p>
   </div>
   {% endfor %}   
 
