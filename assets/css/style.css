@@ -3891,6 +3891,10 @@ TODO: DEPRECATE THESE, NEPHEW
 
 .t-5, .t-6 { font-size: 2.5rem !important; line-height: 3rem; }
 
+.ls-0 { letter-spacing: normal; }
+
+.ls-1 { letter-spacing: .25rem; }
+
 .t-left { text-align: left !important; }
 
 .t-right { text-align: right !important; }
@@ -4130,11 +4134,11 @@ code.hljs { width: 100%; overflow-y: auto; margin-bottom: 1rem; padding: 0.5rem;
 
 @media (min-width: 1350px) { .app { grid-template-areas: "logo nav nav" "sidebar main toc"; } }
 
-.logo { grid-area: logo; position: sticky; position: -webkit-sticky; top: 0; padding: 0 .5rem; z-index: 100; background-color: #0073EC !important; }
+.logo { grid-area: logo; position: sticky; position: -webkit-sticky; top: 0; padding: 0 .5rem; z-index: 100; background-color: #ffffff !important; }
 
 @media (min-width: 800px) { .logo { padding: 0 1.6rem; } }
 
-.nav { grid-area: nav; line-height: 1; position: sticky; position: -webkit-sticky; top: 0; z-index: 100; background-color: #0073EC !important; }
+.nav { grid-area: nav; line-height: 1; position: sticky; position: -webkit-sticky; top: 0; z-index: 100; background-color: #ffffff !important; }
 
 @media (min-width: 800px) { .nav { padding: 1rem; } }
 
@@ -4158,9 +4162,9 @@ main { grid-area: main; overflow: hidden; }
 
 .table-of-contents li.is-active::after { content: ""; position: absolute; left: -1.2rem; top: .45rem; width: .5rem; height: .5rem; background-color: #0073EC; border-radius: 50%; }
 
-.brand { height: 2.5rem; }
+.brand { height: 4rem; }
 
-.brand img { width: auto; height: 100%; margin-bottom: 0; }
+.brand svg { padding: 1rem; height: auto; margin-bottom: 0; }
 
 .nav-menu--large { display: none; }
 
@@ -4168,7 +4172,7 @@ main { grid-area: main; overflow: hidden; }
 
 @media (min-width: 800px) { .nav-menu__toggle { display: none; } }
 
-.toggle { line-height: 1; background-color: initial; border: initial; padding: 0; margin: 0; color: #fff; font-size: 1rem; display: block; line-height: 1; padding: 1.25rem; min-width: 3.5rem; display: flex; align-content: center; }
+.toggle { height: auto; line-height: 1; background-color: initial; border: initial; padding: 0; margin: 0; color: #000; font-size: 1rem; display: block; line-height: 1; padding: 1.25rem; min-width: 3.5rem; display: flex; align-content: center; }
 
 .subnav { height: 100%; }
 
@@ -4182,27 +4186,27 @@ main { grid-area: main; overflow: hidden; }
 
 .subnav__subnav > li { line-height: 1; }
 
-.subnav__subnav > li > a { padding: 1rem 1rem; border-radius: .5rem; }
+.subnav__subnav > li > a { padding: 1rem 1rem; border-left: #fff 8px solid; }
 
-.subnav__subnav > li > a:hover { background-color: rgba(255, 255, 255, 0.2); }
+.subnav__subnav > li > a:hover { background-color: #CCEFFF; border-left: #0073EC 8px solid; }
 
-.subnav__subnav > li > a.is-uncollapsed { background-color: rgba(100, 100, 100, 0.05); }
+.subnav__subnav > li > a.is-uncollapsed { background-color: #CCEFFF; border-left: #0073EC 8px solid; }
 
 .subnav__subnav > li > a.is-active .Icon, .subnav__subnav > li > a.is-active .Pagination .Pagination__icon, .Pagination .subnav__subnav > li > a.is-active .Pagination__icon { color: #0073EC !important; }
 
-.subnav__subnav__subnav { display: none; padding: 1rem 0; }
+.subnav__subnav__subnav { display: none; }
 
-.subnav__subnav__subnav > li a { display: block; line-height: 1; padding: 1rem 2rem; transition: .33s background-color; border-radius: .5rem; }
+.subnav__subnav__subnav > li a { display: block; line-height: 1; padding: 1rem 2rem; transition: .33s background-color; border-left: #0073EC 8px solid; }
 
-.subnav__subnav__subnav > li a:hover { background-color: rgba(255, 255, 255, 0.2); }
+.subnav__subnav__subnav > li a:hover { font-weight: bold; }
 
-.subnav__subnav__subnav > li a.active, .subnav__subnav__subnav > li a.is-active { color: #0073EC; font-weight: bold; }
+.subnav__subnav__subnav > li a.active, .subnav__subnav__subnav > li a.is-active { color: #000000; font-weight: bold; }
 
 .subnav__subnav__subnav-item-divider { padding: 1rem 2rem; line-height: 1; }
 
 .subnav__subnav__subnav-item-divider[title] { cursor: help; }
 
-.sidebar a { color: #434F58; }
+.sidebar a { color: #000000; }
 
 .sidebar a:hover { text-decoration: none; }
 
