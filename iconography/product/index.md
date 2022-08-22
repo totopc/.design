@@ -1,12 +1,11 @@
 ---
-# title: Iconography
+title: Iconography
 layout: app
 toc: false
 ---
 
 <div class="container-fluid p-0">
-<h1 class="t-bold">Iconography</h1>
-<hr/>
+
 <p class="m-bottom-4">Icons are powerful visual representations of our products and services. They are helpers that should not be overused. </p>
 <h3 class="m-bottom-2 t-bold">Product Icons</h3>
 <p>Product icons are designed to represent DreamHost-specific products. It is generally utilized on the website and paired with the product name. Download our full product icons <a href="{{site.baseurl}}/assets/downloads/icons/product/all-product-icons.svg" alt="All Product Icons" download>here</a>.</p>
