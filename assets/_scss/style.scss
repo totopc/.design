@@ -92,7 +92,7 @@ code.hljs {
     top: 0;
 	padding: 0 .5rem;
 	z-index: $z-3;
-	background-color: $c-b300 !important;
+	background-color: $c-w100!important;
 	@media (min-width: $mq-nav) {
 		padding: 0 1.6rem;	
 	}
@@ -105,7 +105,7 @@ code.hljs {
     position: -webkit-sticky;
 	top: 0;
 	z-index: $z-3;
-	background-color: $c-b300 !important;
+	background-color: $c-w100 !important;
 	@media (min-width: $mq-nav) {
 		padding: 1rem;
 	}
@@ -173,11 +173,12 @@ main{
 // Brand
 
 .brand{
-    height: 2.5rem;
-    img{
-      width: auto;
-      height: 100%;
-      margin-bottom: 0;
+
+	height: 4rem;
+    svg{
+	  padding: 1rem;
+	  height: auto;
+	  margin-bottom: 0;
     }
   }
 
@@ -198,11 +199,12 @@ main{
 }
 
 .toggle{
+	height: auto;
 	line-height: 1;
 	background-color: initial;
     border: initial;
     padding: 0; margin: 0;
-	color: #fff;
+	color: #000;
 	font-size: 1rem;
     display: block;
 	line-height: 1;
@@ -239,18 +241,26 @@ main{
 
 		> a{
 			padding: 1rem 1rem;
-			border-radius: .5rem;
+			border-left: #fff 8px solid ;
 			&:hover{
-				background-color: rgba(255,255,255,0.2);
+				background-color: $c-b100;
+				font-weight: bold;
+				border-left: #0073EC 8px solid;
 			}
 			&.is-uncollapsed{
-				background-color: rgba(100,100,100,0.05);
+				background-color: $c-b100;
+				border-left: #0073EC 8px solid;
 			}
 			&.is-active{
+				background-color: $c-b100;
+				font-weight: bold;
+				border-left: #0073EC 8px solid;
 				.Icon{
-					color: $c-b300 !important;
+					color: $c-b300 ;
+					
 				}
 			}
+
 		}
 	}
 }
@@ -258,21 +268,23 @@ main{
 
 .subnav__subnav__subnav{ // Level 3
 	display: none;
-	padding: 1rem 0;
 	> li a {
 		display: block;
 		line-height: 1;
 		padding: 1rem 2rem;
 		transition: .33s background-color;
-		border-radius: .5rem;
+		border-left: #0073EC 8px solid;
 		&:hover{
-			background-color: rgba(255,255,255,0.2);
-		}
-		&.active, &.is-active{
-			// background-color: rgba(100,100,100,0.1);
-			color: $c-b300;
 			font-weight: bold;
 		}
+		&.active, &.is-active{
+			color: $c-black;
+			// background-color: rgba(100,100,100,0.1);
+			font-weight: bold;
+		}
+
+
+
 	}
 }
 
@@ -288,7 +300,7 @@ main{
 }
 
 .sidebar a{
-	color: #434F58; // softer feeling anchor colors
+	color: $c-black;
 	&:hover{
 	text-decoration: none;
 		.Icon{
@@ -326,7 +338,23 @@ main{
 .rounded-circle{
     border-radius: 50%;
 }
-  
+.rounded-container{
+    border-radius: 16px;
+} 
+.rounded-top{
+    border-radius: 16px 16px 0 0;
+} 
+.rounded-bottom{
+    border-radius: 0 0 16px 16px;
+} 
+
+.rounded-left{
+    border-radius: 16px 0 0 16px;
+} 
+.rounded-right{
+    border-radius: 0 16px 16px 0  ;
+} 
+
 a[name]:before { 
 	display: block; 
     content: " "; 
@@ -349,4 +377,16 @@ a[name]:before {
 
 .no-toc{
 	grid-column: span 2;
+}
+
+.shadow-high{
+	box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+}
+
+.shadow-medium{
+	box-shadow: 0px 6px 24px rgba(38, 45, 118, 0.08);
+}
+
+.shadow-default{
+	box-shadow: 0px 2px 4px rgba(38, 45, 118, 0.08);
 }
