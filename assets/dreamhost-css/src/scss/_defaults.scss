@@ -28,6 +28,11 @@ h1, h2, h3, h4{
 	font-weight: $t-regular;
 }
 
+.h1__land {
+	@include fontsize($t-6);
+	margin-bottom: 2rem;
+} //only for .design landing page big type
+
 h1 {
 	@include fontsize($t-5);
 	margin-bottom: 2rem;
