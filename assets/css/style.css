@@ -3,7 +3,10 @@
 	dreamhost.css
 
 */
-/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
@@ -139,8 +142,6 @@ h3 { font-size: 1.75rem; line-height: calc(1em + 8px); margin-bottom: 1.5rem; }
 
 h4 { font-size: 1.5rem; line-height: calc(1em + 8px); margin-bottom: 1rem; }
 
-h5 { font-size: 1.13rem; line-height: calc(1em + 8px); margin-bottom: 1rem; }
-
 a { color: #0073EC; text-decoration: none; }
 
 a:hover, a.is-open { text-decoration: underline; }
@@ -187,22 +188,6 @@ a[disabled] { pointer-events: none; }
 
 /*
 
-	Gilroy. Yeeet!!! I HATE CODING!!!
-
-	Usage:
-	- font-family: 'Gilroy', sans-serif;
-
-*/
-@font-face { font-family: "Gilroy"; font-style: normal; font-weight: 300; src: url("../fonts/gilroy/gilroy-r.eot?") format("eot"), url("../fonts/gilroy/gilroy-r.woff2") format("woff2"), url("../fonts/gilroy/gilroy-r.woff") format("woff"), url("../fonts/gilroy/gilroy-r.ttf") format("truetype"), url('../fonts/gilroy/gilroy-r.svg#str-replace("Gilroy", " ", "_")') format("svg"); }
-
-@font-face { font-family: "Gilroy"; font-style: normal; font-weight: 400; src: url("../fonts/gilroy/gilroy-m.eot?") format("eot"), url("../fonts/gilroy/gilroy-m.woff2") format("woff2"), url("../fonts/gilroy/gilroy-m.woff") format("woff"), url("../fonts/gilroy/gilroy-m.ttf") format("truetype"), url('../fonts/gilroy/gilroy-m.svg#str-replace("Gilroy", " ", "_")') format("svg"); }
-
-@font-face { font-family: "Gilroy"; font-style: normal; font-weight: 500; src: url("../fonts/gilroy/gilroy-sb.eot?") format("eot"), url("../fonts/gilroy/gilroy-sb.woff2") format("woff2"), url("../fonts/gilroy/gilroy-sb.woff") format("woff"), url("../fonts/gilroy/gilroy-sb.ttf") format("truetype"), url('../fonts/gilroy/gilroy-sb.svg#str-replace("Gilroy", " ", "_")') format("svg"); }
-
-@font-face { font-family: "Gilroy"; font-style: normal; font-weight: 600; src: url("../fonts/gilroy/gilroy-b.eot?") format("eot"), url("../fonts/gilroy/gilroy-b.woff2") format("woff2"), url("../fonts/gilroy/gilroy-b.woff") format("woff"), url("../fonts/gilroy/gilroy-b.ttf") format("truetype"), url('../fonts/gilroy/gilroy-b.svg#str-replace("Gilroy", " ", "_")') format("svg"); }
-
-/*
-
 	Ubuntu. Used for headlines throughout DreamHost web properties.
 
 	Usage:
@@ -243,6 +228,22 @@ Usage:
 */
 @font-face { font-family: 'dh-icon'; src: url("../fonts/dh-icon/dh-icon.eot"); src: url("../fonts/dh-icon/dh-icon.eot?#iefix") format("embedded-opentype"), url("../fonts/dh-icon/dh-icon.woff2") format("woff2"), url("../fonts/dh-icon/dh-icon.woff") format("woff"), url("../fonts/dh-icon/dh-icon.ttf") format("truetype"), url("../fonts/dh-icon/dh-icon.svg#dh-icon") format("svg"); font-weight: normal; font-style: normal; }
 
+/*
+
+	Gilroy
+
+	Usage:
+	- font-family: 'Gilroy', sans-serif;
+
+*/
+@font-face { font-family: "Gilroy"; font-style: normal; font-weight: normal; src: url("../fonts/gilroy/gilroy-r.eot?") format("eot"), url("../fonts/gilroy/gilroy-r.woff2") format("woff2"), url("../fonts/gilroy/gilroy-r.woff") format("woff"), url("../fonts/gilroy/gilroy-r.ttf") format("truetype"), url('../fonts/gilroy/gilroy-r.svg#str-replace("Gilroy", " ", "_")') format("svg"); }
+
+@font-face { font-family: "Gilroy"; font-style: normal; font-weight: 500; src: url("../fonts/gilroy/gilroy-m.eot?") format("eot"), url("../fonts/gilroy/gilroy-m.woff2") format("woff2"), url("../fonts/gilroy/gilroy-m.woff") format("woff"), url("../fonts/gilroy/gilroy-m.ttf") format("truetype"), url('../fonts/gilroy/gilroy-m.svg#str-replace("Gilroy", " ", "_")') format("svg"); }
+
+@font-face { font-family: "Gilroy"; font-style: normal; font-weight: 600; src: url("../fonts/gilroy/gilroy-sb.eot?") format("eot"), url("../fonts/gilroy/gilroy-sb.woff2") format("woff2"), url("../fonts/gilroy/gilroy-sb.woff") format("woff"), url("../fonts/gilroy/gilroy-sb.ttf") format("truetype"), url('../fonts/gilroy/gilroy-sb.svg#str-replace("Gilroy", " ", "_")') format("svg"); }
+
+@font-face { font-family: "Gilroy"; font-style: normal; font-weight: 700; src: url("../fonts/gilroy/gilroy-b.eot?") format("eot"), url("../fonts/gilroy/gilroy-b.woff2") format("woff2"), url("../fonts/gilroy/gilroy-b.woff") format("woff"), url("../fonts/gilroy/gilroy-b.ttf") format("truetype"), url('../fonts/gilroy/gilroy-b.svg#str-replace("Gilroy", " ", "_")') format("svg"); }
+
 .Accordion { overflow: hidden; background: #ffffff; border: solid 1px #E0E4E8; border-radius: 3px; margin-bottom: 1rem; }
 
 .Accordion .Accordion__toggle { font-size: 1.5rem; line-height: calc(1em + 8px); font-family: "Gilroy", sans-serif; color: #0073EC; display: block; padding: 1rem; }
@@ -271,7 +272,7 @@ Usage:
 
 .Alert *:last-child { margin-bottom: 0; }
 
-.Alert__heading { font-weight: 600; font-family: "Gilroy", sans-serif; margin: 0; }
+.Alert__heading { font-weight: 700; font-family: "Gilroy", sans-serif; margin: 0; }
 
 .Alert--success { background: #E5FEFF; border-left: 0.5rem solid #00CAAA; }
 
@@ -305,7 +306,7 @@ Usage:
 
 .Toaster--positive .Toaster__type svg * { fill: #E5FEFF; }
 
-.Toaster__heading { padding: 1.5em; width: 75%; transform: translateX(33%); text-transform: uppercase; font: "Gilroy", sans-serif; font-size: 1rem; line-height: calc(1em + 8px); font-weight: 600; }
+.Toaster__heading { padding: 1.5em; width: 75%; transform: translateX(33%); text-transform: uppercase; font: "Gilroy", sans-serif; font-size: 1rem; line-height: calc(1em + 8px); font-weight: 700; }
 
 .Toaster__heading span { display: block; text-transform: initial; font-size: 1rem; line-height: calc(1em + 8px); font-weight: 400; margin-top: 0.5em; }
 
@@ -445,7 +446,7 @@ Buttons
 	Styleguide Base.Buttons
 
 */
-.Button { font-family: "Gilroy", sans-serif; color: #0073EC; background: transparent; border: solid 1px #0073EC; border-radius: 3px; display: inline-block; font-size: 1rem; line-height: 1rem; padding: 0.75rem 2rem 0.625rem; margin: 0; text-align: center; text-decoration: none; font-weight: 600; text-shadow: none; vertical-align: baseline; outline: none; transition: all 0.2s ease-in-out; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.Button { font-family: "Gilroy", sans-serif; color: #0073EC; background: transparent; border: solid 1px #0073EC; border-radius: 3px; display: inline-block; font-size: 1rem; line-height: 1rem; padding: 0.75rem 2rem 0.625rem; margin: 0; text-align: center; text-decoration: none; font-weight: 700; text-shadow: none; vertical-align: baseline; outline: none; transition: all 0.2s ease-in-out; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
 
 .Button:hover, .Button:active, .Button.is-open { color: #004186; text-decoration: none; border-color: #005ab9; box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1); }
 
@@ -564,7 +565,7 @@ Cards
 
 .Card.Card__plan .Card__subheading { font-size: 0.875rem; line-height: 1rem; color: #0073EC; text-transform: uppercase; }
 
-.Card.Card__plan .Card__number { margin: 1rem 0; font-size: 2.5rem; line-height: calc(1em + 8px); color: #071c26; }
+.Card.Card__plan .Card__number { margin: 1rem 0; font-size: 3rem; line-height: calc(1em + 8px); color: #071c26; }
 
 .Card.Card__plan--highlighted { text-align: center; border: solid 1px #E0E4E8; border-radius: 3px; border: solid 1px #F59D00; }
 
@@ -572,7 +573,7 @@ Cards
 
 .Card.Card__plan--highlighted .Card__subheading { font-size: 0.875rem; line-height: 1rem; color: #0073EC; text-transform: uppercase; }
 
-.Card.Card__plan--highlighted .Card__number { margin: 1rem 0; font-size: 2.5rem; line-height: calc(1em + 8px); color: #071c26; }
+.Card.Card__plan--highlighted .Card__number { margin: 1rem 0; font-size: 3rem; line-height: calc(1em + 8px); color: #071c26; }
 
 .Card.Card__plan--highlighted .Tag { position: absolute; top: -24px; right: -1px; }
 
@@ -582,7 +583,7 @@ Cards
 
 .Card.Card__plan--extended .Card__subheading { font-size: 0.875rem; line-height: 1rem; color: #0073EC; text-transform: uppercase; }
 
-.Card.Card__plan--extended .Card__number { margin: 1rem 0; font-size: 2.5rem; line-height: calc(1em + 8px); color: #071c26; }
+.Card.Card__plan--extended .Card__number { margin: 1rem 0; font-size: 3rem; line-height: calc(1em + 8px); color: #071c26; }
 
 .Card.Card__plan--extended .Card__heading { color: #0073EC; }
 
@@ -685,7 +686,7 @@ Form Components
 
 .Form__group--select:hover:after { border-color: #677983 transparent; }
 
-.Form__label { color: #434F58; display: block; font-size: 1rem; line-height: calc(1em + 8px); font-weight: 600; max-width: 35rem; }
+.Form__label { color: #434F58; display: block; font-size: 1rem; line-height: calc(1em + 8px); font-weight: 700; max-width: 35rem; }
 
 .Form__description { color: #434F58; font-size: 1rem; line-height: calc(1em + 8px); font-weight: 400; margin-bottom: 0; }
 
@@ -869,7 +870,18 @@ textarea.Input { min-height: 140px; }
 
 .supports-fontface .Icon--youtube:before { content: "\e937"; }
 
-/* Default list component .List is for a general purpose list of text .List--disc gives the list dots, for an unordered list .List--dec give the list numbered value for an ordered list .List--tick give the list tick icons .List--double gives lists double line height .List--inline makes the list horizontal .List--50 makes list items 50% width .List__menu formats list item links like a product menu */
+/*
+	Default list component
+
+	.List is for a general purpose list of text
+	.List--disc gives the list dots, for an unordered list
+	.List--dec give the list numbered value for an ordered list
+	.List--tick give the list tick icons
+	.List--double gives lists double line height
+	.List--inline makes the list horizontal
+	.List--50 makes list items 50% width
+	.List__menu formats list item links like a product menu
+*/
 .List { text-align: left; font-size: 1rem; line-height: calc(1em + 8px); }
 
 .List > li:last-child { margin-bottom: 0; }
@@ -918,7 +930,13 @@ textarea.Input { min-height: 140px; }
 
 .List__menu--description { color: #677983; font-size: 1rem; line-height: calc(1em + 8px); }
 
-/* List style variations Add to the default .list component for consistent styles - list--padding adds some default padding around the list items for larger click areas - list--small-bold is a slightly smaller and bolder list with no link underlines */
+/*
+	List style variations
+
+	Add to the default .list component for consistent styles
+	- list--padding adds some default padding around the list items for larger click areas
+	- list--small-bold is a slightly smaller and bolder list with no link underlines
+*/
 .List.List--padding { padding-top: 0.5rem; padding-bottom: 0.5rem; }
 
 .List__menu.List--padding { padding: 1rem 0; }
@@ -929,7 +947,7 @@ textarea.Input { min-height: 140px; }
 
 .List.List--padding > li > * { display: block; padding: 0.5rem 1rem; transition-duration: 0.1s; transition-timing-function: linear; }
 
-.List--small-bold > li > * { font-weight: 600; color: #000000; text-decoration: none; font-size: 1rem; line-height: calc(1em + 8px); }
+.List--small-bold > li > * { font-weight: 700; color: #000000; text-decoration: none; font-size: 1rem; line-height: calc(1em + 8px); }
 
 .List--small-bold > li span { color: #677983; font-size: 1rem; line-height: calc(1em + 8px); padding: auto 0.5rem; }
 
@@ -937,7 +955,13 @@ textarea.Input { min-height: 140px; }
 
 .List--small-bold > li > .is-disabled { pointer-events: none; opacity: .3; }
 
-/* Makes icons display in a right-aligned column in the list, instead of left <ul class="list list--icon-right"> <li><a><svg class="icon">...</svg>Link</a></li> </ul> */
+/*
+	Makes icons display in a right-aligned column in the list, instead of left
+
+	<ul class="list list--icon-right">
+		<li><a><svg class="icon">...</svg>Link</a></li>
+	</ul>
+*/
 .List--icon-right > li { position: relative; }
 
 .List--icon-right > li > * { padding-right: 3.5em; }
@@ -949,7 +973,7 @@ textarea.Input { min-height: 140px; }
 .Modal__button-group { margin-top: 2rem; }
 
 @media screen and (min-width: 750px) { .Modal { padding: 4.5rem; }
-  .Modal__heading { font-size: 2.5rem; line-height: calc(1em + 8px); } }
+  .Modal__heading { font-size: 3rem; line-height: calc(1em + 8px); } }
 
 .remodal-overlay { background: rgba(224, 228, 232, 0.9) !important; }
 
@@ -1019,7 +1043,12 @@ Popover Component
 
 .Popover--max-height.is-open .Popover__wrapper { overflow-y: scroll; }
 
-/* Themes: - Popover--dark - Popover--error - Popover--success */
+/*
+	Themes:
+	- Popover--dark
+	- Popover--error
+	- Popover--success
+*/
 .Popover.Popover--dark, .Popover.Popover--dark a { color: #ffffff; }
 
 .Popover.Popover--dark, .Popover.Popover--dark.has-caret:after { background: #071c26; }
@@ -1032,7 +1061,18 @@ Popover Component
 
 .Popover.Popover--success, .Popover.Popover--success.has-caret:after { background: #0D8288; }
 
-/* Alignment: - Popover--right - Popover--bottom - Popover--left Positioning: - Popover--flush-top - Popover--flush-right - Popover--flush-bottom - Popover--flush-left */
+/*
+	Alignment:
+	- Popover--right
+	- Popover--bottom
+	- Popover--left
+
+	Positioning:
+	- Popover--flush-top
+	- Popover--flush-right
+	- Popover--flush-bottom
+	- Popover--flush-left
+*/
 .Popover--bottom { margin-bottom: 2rem; transform: translateX(-50%); }
 
 .Popover:after, .Popover--bottom:after { margin-left: -6px; }
@@ -1095,7 +1135,14 @@ Popover Component
 
 .Popover--left.has-caret:after { box-shadow: 1px -1px 0 0 rgba(31, 45, 61, 0.15); right: -5px; left: auto; }
 
-/* Sizes: - Popover--1 - Popover--2 - Popover--3 - Popover--4 - Popover--5 */
+/*
+	Sizes:
+	- Popover--1
+	- Popover--2
+	- Popover--3
+	- Popover--4
+	- Popover--5
+*/
 .Popover--1 { width: 200px; }
 
 .Popover--2 { width: 300px; }
@@ -1106,7 +1153,10 @@ Popover Component
 
 .Popover--5 { width: 600px; }
 
-/* Dropdown Content: - Popover__section */
+/*
+	Dropdown Content:
+	- Popover__section
+*/
 .Popover__section--separator { border-top: 1px solid #d1d7dd; }
 
 .Popover--dark .Popover__section--separator { border-color: #38424a; }
@@ -1135,7 +1185,7 @@ Popover Component
 
 .Tabs__nav { border-bottom: solid 1px #E0E4E8; font-size: 0; overflow-x: auto; white-space: nowrap; }
 
-.Tabs__nav-item { margin: 0 1rem; padding: 0 0 1rem 0; font-size: 1rem; line-height: calc(1em + 8px); font-weight: 600; color: #677983; display: inline-block; position: relative; user-select: none; transition: right 0.2s ease-out; }
+.Tabs__nav-item { margin: 0 1rem; padding: 0 0 1rem 0; font-size: 1rem; line-height: calc(1em + 8px); font-weight: 700; color: #677983; display: inline-block; position: relative; user-select: none; transition: right 0.2s ease-out; }
 
 .Tabs__nav-item a { display: block; color: #677983; }
 
@@ -1147,7 +1197,7 @@ Popover Component
 
 .Tabs__nav-item:first-child { margin-left: 0; }
 
-.Tabs__nav-item.is-active { font-weight: 600; color: #071c26; }
+.Tabs__nav-item.is-active { font-weight: 700; color: #071c26; }
 
 .Tabs__nav-item.is-active:hover { cursor: default; }
 
@@ -1240,11 +1290,11 @@ Table
 
 .Table__m tbody tr td { display: block; font-size: 1rem; line-height: calc(1em + 8px); padding: 1rem 0.5rem; vertical-align: middle; }
 
-.Table__m tbody tr td:before { content: attr(data-title); display: inline-block; width: 100px; font-weight: 600; }
+.Table__m tbody tr td:before { content: attr(data-title); display: inline-block; width: 100px; font-weight: 700; }
 
 .Table__m tbody tr td:first-child:before { width: auto; }
 
-.Table__m tbody tr td:first-child, .Table__m tbody tr td:first-child a { font-size: 1rem; line-height: calc(1em + 8px); font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; }
+.Table__m tbody tr td:first-child, .Table__m tbody tr td:first-child a { font-size: 1rem; line-height: calc(1em + 8px); font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; }
 
 .Table__m tbody tr td:last-child { margin-bottom: 1rem; }
 
@@ -1442,7 +1492,7 @@ Usage:
 
 .Cart__header h3 { margin-bottom: 0.25em; }
 
-.Cart__heading { margin: 0; font-weight: 600; }
+.Cart__heading { margin: 0; font-weight: 700; }
 
 .Cart__step { transition: all 0.1s ease-in-out; background-color: #ffffff; position: relative; margin: 1px 0; padding: 1.5rem 1.5rem 1.5rem 4rem; word-wrap: break-word; }
 
@@ -1480,7 +1530,7 @@ Usage:
 
 .Cart__step-price span { display: block; color: #434F58; }
 
-.Cart__footer { padding: 1.5rem; background: #F4F6F9; font-weight: 600; border-radius: 0 0 3px 3px; }
+.Cart__footer { padding: 1.5rem; background: #F4F6F9; font-weight: 700; border-radius: 0 0 3px 3px; }
 
 .Cart__total-price { margin: 0; padding: 0; }
 
@@ -1550,7 +1600,7 @@ Page Header Component
 
 .PageHeader__container > * { flex: 1 100%; }
 
-.PageHeader__container .Popover__section { font-weight: 600; text-align: left; }
+.PageHeader__container .Popover__section { font-weight: 700; text-align: left; }
 
 .PageHeader__container .Popover__section ul:not(:first-child) { border-top: solid 1px #F4F6F9; }
 
@@ -1568,7 +1618,7 @@ Page Header Component
 
 .PageHeader__nav li:last-of-type { border-bottom: solid 1px #E0E4E8; }
 
-.PageHeader__nav-link { text-decoration: none; font-weight: 600; color: #E0E4E8; font-size: 1rem; line-height: 1rem; display: inline-block; outline: none; position: relative; border: solid 1px #E0E4E8; border-bottom: none; }
+.PageHeader__nav-link { text-decoration: none; font-weight: 700; color: #E0E4E8; font-size: 1rem; line-height: 1rem; display: inline-block; outline: none; position: relative; border: solid 1px #E0E4E8; border-bottom: none; }
 
 .PageHeader__nav-link:hover, .PageHeader__nav-link.is-open { color: #ffffff; text-decoration: none; }
 
@@ -1598,7 +1648,7 @@ Page Header Component
 
 .PageHeader__subnav-link:hover:after, .PageHeader__subnav-link.is-open:after { color: #0073EC; }
 
-.PageHeader__notification-amount { display: inline-block; background: #FF4A48; border-radius: 50px; width: 1rem; height: 1rem; font-size: 0.875rem; line-height: 1rem; font-weight: 600; text-align: center; vertical-align: middle; color: #ffffff; transform: translate(18px, -4px); }
+.PageHeader__notification-amount { display: inline-block; background: #FF4A48; border-radius: 50px; width: 1rem; height: 1rem; font-size: 0.875rem; line-height: 1rem; font-weight: 700; text-align: center; vertical-align: middle; color: #ffffff; transform: translate(18px, -4px); }
 
 button.PageHeader__subnav-link { background: transparent; border-width: 0; padding: 0; cursor: pointer; outline: none; }
 
@@ -1695,7 +1745,7 @@ Panel
 
 .Panel--double .Panel__tags { top: 0.5rem; right: 0; }
 
-.Panel__label { font-size: 1rem; line-height: 1rem; display: inline-block; min-width: 5rem; font-weight: 600; }
+.Panel__label { font-size: 1rem; line-height: 1rem; display: inline-block; min-width: 5rem; font-weight: 700; }
 
 .Panel__code { display: inline-block; }
 
@@ -2742,7 +2792,13 @@ TODO: DEPRECATE THESE, NEPHEW
   .l-pos-left__l { left: 0 !important; }
   .l-pos-right__l { right: 0 !important; } }
 
-/* Miscellaneous Utilities Classes Not sure where a particular utility belongs? Don't want to create a whole file just for a couple of classes that won't be used too frequently but are important nonetheless? Well, slap a '.u-' prefix on it and put it here, my friend! */
+/*
+	Miscellaneous Utilities Classes
+
+	Not sure where a particular utility belongs? Don't want to create a whole file just for a couple of classes that won't be used too frequently but are important nonetheless?
+
+	Well, slap a '.u-' prefix on it and put it here, my friend!
+*/
 .u-border-radius { border-radius: 3px !important; }
 
 .u-cf::after, .u-clearfix::after, .container-s::after, .container-m::after, .container-l::after, .container-full-width::after { clear: both; content: ""; display: table; }
@@ -3889,11 +3945,7 @@ TODO: DEPRECATE THESE, NEPHEW
 
 .t-4 { font-size: 2rem !important; line-height: 2.5rem; }
 
-.t-5, .t-6 { font-size: 2.5rem !important; line-height: 3rem; }
-
-.ls-0 { letter-spacing: normal; }
-
-.ls-1 { letter-spacing: .25rem; }
+.t-5, .t-6 { font-size: 3rem !important; line-height: 3rem; }
 
 .t-left { text-align: left !important; }
 
@@ -3905,7 +3957,7 @@ TODO: DEPRECATE THESE, NEPHEW
 
 .t-extrabold { font-weight: 900 !important; }
 
-.t-bold { font-weight: 600 !important; }
+.t-bold { font-weight: 700 !important; }
 
 .t-light { font-weight: 300 !important; }
 
@@ -3950,8 +4002,8 @@ TODO: DEPRECATE THESE, NEPHEW
   .t-2__m { font-size: 1.5rem !important; line-height: 2rem; }
   .t-3__m { font-size: 1.75rem !important; line-height: 2rem; }
   .t-4__m { font-size: 2rem !important; line-height: 2.5rem; }
-  .t-5__m { font-size: 2.5rem !important; line-height: 3rem; }
-  .t-6__m { font-size: 3rem !important; line-height: 3rem; }
+  .t-5__m { font-size: 3rem !important; line-height: 3rem; }
+  .t-6__m { font-size: 2.5rem !important; line-height: 3rem; }
   .t-line-height-5__m { line-height: 3rem !important; }
   .t-line-height-4__m { line-height: 2.5rem !important; }
   .t-line-height-3__m { line-height: 2rem !important; }
@@ -3962,7 +4014,7 @@ TODO: DEPRECATE THESE, NEPHEW
   .t-center__m { text-align: center !important; }
   .t-justify__m { text-align: justify !important; }
   .t-extrabold__m { font-weight: 900 !important; }
-  .t-bold__m { font-weight: 600 !important; }
+  .t-bold__m { font-weight: 700 !important; }
   .t-light__m { font-weight: 300 !important; }
   .t-lighter__m { font-weight: 100 !important; }
   .t-regular__m { font-weight: 400 !important; } }
@@ -3972,8 +4024,8 @@ TODO: DEPRECATE THESE, NEPHEW
   .t-2__l { font-size: 1.5rem !important; line-height: 2rem; }
   .t-3__l { font-size: 1.75rem !important; line-height: 2rem; }
   .t-4__l { font-size: 2rem !important; line-height: 2.5rem; }
-  .t-5__l { font-size: 2.5rem !important; line-height: 3rem; }
-  .t-6__l { font-size: 3rem !important; line-height: 3rem; }
+  .t-5__l { font-size: 3rem !important; line-height: 3rem; }
+  .t-6__l { font-size: 2.5rem !important; line-height: 3rem; }
   .t-line-height-5__l { line-height: 3rem !important; }
   .t-line-height-4__l { line-height: 2.5rem !important; }
   .t-line-height-3__l { line-height: 2rem !important; }
@@ -3984,7 +4036,7 @@ TODO: DEPRECATE THESE, NEPHEW
   .t-center__l { text-align: center !important; }
   .t-justify__l { text-align: justify !important; }
   .t-extrabold__l { font-weight: 900 !important; }
-  .t-bold__l { font-weight: 600 !important; }
+  .t-bold__l { font-weight: 700 !important; }
   .t-light__l { font-weight: 300 !important; }
   .t-lighter__l { font-weight: 100 !important; }
   .t-regular__l { font-weight: 400 !important; } }
@@ -4249,3 +4301,47 @@ a[name]:before { display: block; content: " "; margin-top: -5rem; height: 5rem; 
 .shadow-medium { box-shadow: 0px 6px 24px rgba(38, 45, 118, 0.08); }
 
 .shadow-default { box-shadow: 0px 2px 4px rgba(38, 45, 118, 0.08); }
+
+.t-ls-1 { letter-spacing: .25rem; }
+
+.h-0 { height: 0 !important; }
+
+.h-1 { height: 1% !important; }
+
+.h-25 { height: 25% !important; }
+
+.h-33 { height: 33.33% !important; }
+
+.h-50 { height: 50% !important; }
+
+.h-66 { height: 66.66% !important; }
+
+.h-75 { height: 75% !important; }
+
+.h-99 { height: 99% !important; }
+
+.h-100 { height: 100% !important; }
+
+.h-auto { height: auto !important; }
+
+@media screen and (min-height: 750px) { .h-0__m { height: 0 !important; }
+  .h-1__m { height: 1% !important; }
+  .h-25__m { height: 25% !important; }
+  .h-33__m { height: 33.33% !important; }
+  .h-50__m { height: 50% !important; }
+  .h-66__m { height: 66.66% !important; }
+  .h-75__m { height: 75% !important; }
+  .h-99__m { height: 99% !important; }
+  .h-100__m { height: 100% !important; }
+  .h-auto__m { height: auto !important; } }
+
+@media screen and (min-height: 1050px) { .h-0__l { height: 0 !important; }
+  .h-1__l { height: 1% !important; }
+  .h-25__l { height: 25% !important; }
+  .h-33__l { height: 33.33% !important; }
+  .h-50__l { height: 50% !important; }
+  .h-66__l { height: 66.66% !important; }
+  .h-75__l { height: 75% !important; }
+  .h-99__l { height: 99% !important; }
+  .h-100__l { height: 100% !important; }
+  .h-auto__l { height: auto !important; } }

@@ -64,7 +64,7 @@ gulp.task('styles', function () {
 */
 
 gulp.task('jekyll', () => {
-  const jekyll = child.spawn('jekyll', ['build',
+  const jekyll = child.spawn('jekyll.bat', ['build',
     '--watch',
     '--incremental',
 	'--drafts'

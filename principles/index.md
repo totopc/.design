@@ -9,10 +9,10 @@ toc: false
 
 <div class="container-fluid ">
 
-<div class="row shadow-high rounded-container m-bottom-4">
+<div class="row shadow-high rounded-container m-bottom-4 no-scroll">
 
-<h5 class="col-3 bg-c-b300 t-c-w100  p-0 m-0 flex flex-align-center flex-justify-around rounded-left ">Our Mission</h5>
-<p class="col-9 bg-c-w100 rounded-right p-2">
+<h5 class="col-12 col-md-3 bg-c-b300 t-c-w100 t-bold p-0 m-0 flex__m flex-align-center flex-justify-around p-2 ">Our Mission</h5>
+<p class="col-12 col-md-9 bg-c-w100 p-2">
 <span class="t-bold">How we bring our vision to our customers: <br/></span>
 Provide personalized guidance to businesses to help them attract, captivate, and grow customers online by using our full suite of web and marketing tools, curated roadmaps, and intelligent analytics.</p>
 </div>
@@ -21,10 +21,10 @@ Provide personalized guidance to businesses to help them attract, captivate, and
 
 <div class="container-fluid ">
 
-<div class="row shadow-high rounded-container m-bottom-4">
+<div class="row shadow-high rounded-container m-bottom-4 no-scroll">
 
-<h5 class="col-3 bg-c-p300 t-c-w100  p-0 m-0 flex flex-align-center flex-justify-around rounded-left ">Noble Cause</h5>
-<p class="col-9 bg-c-w100 rounded-right p-2 ">
+<h5 class="col-12 col-md-3 bg-c-p300 t-c-w100 t-bold p-0 m-0 flex__m flex-align-center flex-justify-around p-2">Noble Cause</h5>
+<p class="col-12 col-md-9 bg-c-w100 p-2 ">
 <span class="t-bold ">A meaning that unites us all: <br/></span>
 We help people own their digital presence.</p>
 </div>
@@ -33,10 +33,10 @@ We help people own their digital presence.</p>
 
 <div class="container-fluid ">
 
-<div class="row shadow-high rounded-container m-bottom-4">
+<div class="row shadow-high rounded-container no-scroll m-bottom-4">
 
-<h5 class="col-3 bg-c-t300 t-c-w100  p-0 m-0 flex flex-align-center flex-justify-around rounded-left ">Vision</h5>
-<p class="col-9 bg-c-w100 rounded-right p-2 ">
+<h5 class="col-12 col-md-3 bg-c-t300 t-c-w100 t-bold p-0 m-0 flex__m flex-align-center flex-justify-around p-2 ">Vision</h5>
+<p class="col-12 col-md-9 bg-c-w100  p-2 ">
 <span class="t-bold ">A forward-looking vision for the future of the world. <br/></span>
 People have the freedom to choose how their digital content is shared.</p>
 </div>
@@ -61,137 +61,90 @@ People have the freedom to choose how their digital content is shared.</p>
 </defs>
 </svg>
 
-
-
-
  <h5 class="t-bold">Approachable</h5>
       <p>We’re here to help. We take complicated technical concepts and distill them down into plain english, without judgment or condescension. We speak to our customer’s experience level because we value them.</p>
       </div>
   </div>
     </div>
 
-    
 <div class=" col-12 col-md-6 flex">
      <div class= "Card bg-c-w100 rounded-container shadow-high p-0 ">
       <div class= "p-4">
-
 
 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M28 0H4C1.79375 0 0 1.79375 0 4V22C0 24.2062 1.79375 26 4 26H10V31.25C10 31.6938 10.3625 32 10.75 32C10.9 32 11.0563 31.9563 11.1938 31.85L19 26H28C30.2062 26 32 24.2062 32 22V4C32 1.79375 30.2062 0 28 0ZM29 22C29 22.55 28.55 23 28 23H18L17.2 23.6L13 26.75V23H4C3.45 23 3 22.55 3 22V4C3 3.45 3.45 3 4 3H28C28.55 3 29 3.45 29 4V22ZM23 8.5H9C8.45 8.5 8 8.95 8 9.5V10.5C8 11.05 8.45 11.5 9 11.5H23C23.55 11.5 24 11.05 24 10.5V9.5C24 8.95 23.55 8.5 23 8.5ZM17 14.5H9C8.45 14.5 8 14.95 8 15.5V16.5C8 17.05 8.45 17.5 9 17.5H17C17.55 17.5 18 17.05 18 16.5V15.5C18 14.95 17.55 14.5 17 14.5Z" fill="#A644E5"/>
 </svg>
 
-
  <h5 class="t-bold">Conversational</h5>
       <p>We aren’t overly-formal, contrived or corporate. We’re people first, marketers second. We never sound scripted or phony.</p>
       </div>
   </div>
-    </div>
+ </div>
+ 
+<div class=" col-12 col-md-6 flex">
+     <div class= "Card bg-c-w100 rounded-container shadow-high p-0 ">
+      <div class= "p-4">
+
+<svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.5 0.5C6.9375 0.5 0 7.4375 0 16C0 24.5625 6.9375 31.5 15.5 31.5C24.0625 31.5 31 24.5625 31 16C31 7.4375 24.0625 0.5 15.5 0.5ZM24.3375 24.8375C21.975 27.2 18.8375 28.5 15.5 28.5C12.1625 28.5 9.025 27.2 6.6625 24.8375C4.3 22.475 3 19.3375 3 16C3 12.6625 4.3 9.525 6.6625 7.1625C9.025 4.8 12.1625 3.5 15.5 3.5C18.8375 3.5 21.975 4.8 24.3375 7.1625C26.7 9.525 28 12.6625 28 16C28 19.3375 26.7 22.475 24.3375 24.8375ZM21.475 12.25L23.575 9.73125C24.1125 9.0875 23.3375 8.18125 22.6125 8.60625L17.6125 11.6062C17.125 11.9 17.125 12.6 17.6125 12.8938L22.6125 15.8938C23.3312 16.3188 24.1125 15.4187 23.575 14.7688L21.475 12.25ZM8.3875 15.8938L13.3875 12.8938C13.875 12.6 13.875 11.9 13.3875 11.6062L8.3875 8.60625C7.6625 8.175 6.8875 9.0875 7.425 9.73125L9.525 12.25L7.425 14.7688C6.88125 15.4187 7.6625 16.3188 8.3875 15.8938ZM22.65 18H8.35C7.8375 18 7.44375 18.4375 7.50625 18.9375C7.975 22.6375 11.1875 25.5 15.075 25.5H15.925C19.8125 25.5 23.025 22.6375 23.4937 18.9375C23.5562 18.4375 23.1625 18 22.65 18Z" fill="#00CAAA"/>
+</svg>
 
 
+ <h5 class="t-bold">Fun & Irreverent</h5>
+      <p>We are playful and don’t mind a little humor. We try to keep it PG-13, but no promises.</p>
+      </div>
+  </div>
+ </div>
+<div class=" col-12 col-md-6 flex">
+     <div class= "Card bg-c-w100 rounded-container shadow-high p-0 ">
+      <div class= "p-4">
 
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_80_1294)">
+<path d="M16.2304 5.373L19.3333 6.66679L20.6273 9.7696C20.6618 9.83899 20.7149 9.89739 20.7807 9.93822C20.8466 9.97904 20.9225 10.0007 21 10.0007C21.0775 10.0007 21.1534 9.97904 21.2193 9.93822C21.2851 9.89739 21.3382 9.83899 21.3727 9.7696L22.6666 6.66679L25.7694 5.373C25.8387 5.33841 25.8969 5.28521 25.9376 5.21939C25.9782 5.15357 25.9998 5.07772 25.9998 5.00033C25.9998 4.92295 25.9782 4.8471 25.9376 4.78128C25.8969 4.71545 25.8387 4.66226 25.7694 4.62767L22.6666 3.33376L21.3727 0.231072C21.3382 0.161678 21.2851 0.10328 21.2193 0.0624552C21.1534 0.0216304 21.0775 0 21 0C20.9225 0 20.8466 0.0216304 20.7807 0.0624552C20.7149 0.10328 20.6618 0.161678 20.6273 0.231072L19.3333 3.33376L16.2304 4.62767C16.1612 4.66226 16.103 4.71545 16.0623 4.78128C16.0216 4.8471 16.0001 4.92295 16.0001 5.00033C16.0001 5.07772 16.0216 5.15357 16.0623 5.21939C16.103 5.28521 16.1612 5.33841 16.2304 5.373ZM31.8158 13.7023L29.3336 12.6675L28.2987 10.1855C28.2711 10.13 28.2286 10.0833 28.1759 10.0506C28.1233 10.018 28.0625 10.0007 28.0005 10.0007C27.9386 10.0007 27.8778 10.018 27.8251 10.0506C27.7725 10.0833 27.7299 10.13 27.7024 10.1855L26.6673 12.6675L24.1853 13.7023C24.1299 13.73 24.0834 13.7726 24.0508 13.8253C24.0183 13.8779 24.0011 13.9386 24.0011 14.0005C24.0011 14.0624 24.0183 14.1231 24.0508 14.1757C24.0834 14.2284 24.1299 14.2709 24.1853 14.2986L26.6673 15.3336L27.7024 17.8155C27.7299 17.871 27.7724 17.9178 27.8251 17.9504C27.8778 17.9831 27.9385 18.0004 28.0005 18.0004C28.0625 18.0004 28.1233 17.9831 28.176 17.9504C28.2286 17.9178 28.2711 17.871 28.2987 17.8155L29.3336 15.3336L31.8158 14.2986C31.8711 14.2709 31.9177 14.2284 31.9502 14.1757C31.9828 14.1231 32 14.0624 32 14.0005C32 13.9386 31.9828 13.8779 31.9502 13.8253C31.9177 13.7726 31.8711 13.73 31.8158 13.7023ZM22.7692 16.7065L16.2182 15.7505L13.2865 9.80048C13.1687 9.55854 12.9846 9.35498 12.7558 9.21342C12.5269 9.07186 12.2626 8.9981 11.9935 9.0007C11.7258 8.99757 11.4628 9.07125 11.2358 9.213C11.0087 9.35475 10.827 9.55863 10.7122 9.80048L7.78047 15.7505L1.22948 16.7065C0.0556161 16.8755 -0.419008 18.3256 0.436486 19.1566L5.18078 23.7815L4.05574 30.3184C3.89363 31.25 4.63584 32 5.4679 32C5.70121 32.0006 5.93092 31.9425 6.13589 31.8311L11.9994 28.7442L17.8628 31.8311C18.0995 31.9577 18.3671 32.0151 18.6349 31.9967C18.9028 31.9782 19.16 31.8847 19.3771 31.7268C19.5942 31.569 19.7625 31.3531 19.8625 31.104C19.9626 30.8549 19.9905 30.5826 19.943 30.3184L18.8238 23.7815L23.5681 19.1566C24.4177 18.3256 23.9431 16.8755 22.7692 16.7065ZM15.5932 22.7376L16.4487 27.7003L11.9994 25.3566L7.54218 27.7003L8.39963 22.7376L4.78624 19.2191L9.77467 18.4946L11.9994 13.982L14.224 18.4946L19.2125 19.2191L15.5932 22.7376Z" fill="#F59D00"/>
+</g>
+<defs>
+<clipPath id="clip0_80_1294">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>
 
+ <h5 class="t-bold">Authentic</h5>
+      <p>We get straight to the point. We’re candid, don’t dance around touchy subjects, and are always real with people.</p>
+      </div>
+  </div>
+ </div>
 </div>
 
-<h2 class="m-bottom-4">Brand Promise</h2>
-<p class=" m-bottom-4">DreamHost is a team of experienced web experts. We understand the importance of getting your content online and in front of your audience quickly. We promise to support your efforts using the latest open source tech and award-winning support.</p>
-
-<hr />
-
-<h2 class="m-bottom-4">Vision Statement</h2>
-<p class="m-bottom-4">People have the freedom to choose how their digital content is shared.</p>
-
-<hr />
-
-<h2 class="m-bottom-4">Noble Cause</h2>
-<p class="">We help people own their digital presence.</p>
-
-<hr />
-
-<h2 class="m-bottom-4">Brand Values</h2>
-
-<div class="u-clearfix m-bottom-4 container-l">
-	<div class="Card__wrapper">
-		<div class="Card border border u-border-radius t-c-g200 m-bottom-4 u-clearfix g-1_3__m">
-			<img src="{{site.baseurl}}/assets/images/values/ep.svg" alt="Empower People" />
-			<img src="{{site.baseurl}}/assets/images/values/ep-typ.svg" alt="Empower People" />
-			<p class="t-c-b700"><strong class="l-inline-block p-bottom-2">Empower People</strong><br />Because we don’t need any stuffy-white-shirted-tie-wearing boss micro-managing our every move, we have the autonomy to complete the projects that matter and make a difference for customers. We do all of that because we believe in giving customers the right tools they need to achieve their dreams online. By empowering our employees to be truly helpful, we also empower our customers with products and services they need to do their business, their way... and that’s what it’s all about!</p>
-			<p class="p-2 t-c-b700 bg-c-g100 u-border-radius"><strong>Download graphics:</strong><br /> Graphic <a href="/assets/downloads/values/ep.eps" download>.EPS</a><br />Typography <a href="/assets/downloads/values/ep-typ.eps" download> .EPS</a></p>
-		</div><!--Card-->
-		<div class="Card border border u-border-radius t-c-g200 m-bottom-4 u-clearfix g-1_3__m">
-			<img src="{{site.baseurl}}/assets/images/values/psh.svg" alt="Practice Shameless Honesty" />
-			<img src="{{site.baseurl}}/assets/images/values/psh-typ.svg" alt="Practice Shameless Honesty" />
-			<p class="t-c-b700"><strong class="l-inline-block p-bottom-2">Practice Shameless Honesty</strong><br />Anyone can say that they’re open and honest, but at DreamHost we take it to extremes. We’re a gaping hole from which truth oozes, white hot, and which ultimately brings us closer together. Being transparent with each other and with our customers is a surefire way to build trust, mutual respect, and, if we’ve had enough wine, love.</p>
-			<p class="p-2 t-c-b700 bg-c-g100 u-border-radius"><strong>Download graphics:</strong><br /> Graphic <a href="/assets/downloads/values/psh.eps" download>.EPS</a><br />Typography <a href="/assets/downloads/values/psh-typ.eps" download> .EPS</a></p>
-		</div><!--Card-->
-		<div class="Card border border u-border-radius t-c-g200 m-bottom-4 u-clearfix g-1_3__m g-omega__m">
-			<img src="{{site.baseurl}}/assets/images/values/ev.svg" alt="Give Everyone a Voice" />
-			<img src="{{site.baseurl}}/assets/images/values/ev-typ.svg" alt="Give Everyone a Voice" />
-			<p class="t-c-b700"><strong class="l-inline-block p-bottom-2">Give Everyone a Voice</strong><br />Everyone at every level of the organization has a voice at DreamHost! We all bring our own unique perspective and experience to every conversation, and having those diverse inputs leads to better problem solving and more productive teams. Being able to influence and inform key decisions is an important part of feeling valued at work!</p>
-			<p class="p-2 t-c-b700 bg-c-g100 u-border-radius"><strong>Download graphics:</strong><br /> Graphic <a href="/assets/downloads/values/ev.eps" download>.EPS</a><br />Typography <a href="/assets/downloads/values/ev-typ.eps" download> .EPS</a></p>
-		</div><!--Card-->
-	</div><!--Card__wrapper-->
-	<div class="Card__wrapper">
-		<div class="Card border border u-border-radius t-c-g200 m-bottom-4 u-clearfix g-1_3__m">
-			<img src="{{site.baseurl}}/assets/images/values/sh.svg" alt="Speak Hacker" />
-			<img src="{{site.baseurl}}/assets/images/values/sh-typ.svg" alt="Speak Hacker" />
-			<p class="t-c-b700"><strong class="l-inline-block p-bottom-2">Speak Hacker</strong><br />At DreamHost we like to ask questions and then figure out the answers because we enjoy finding creative solutions through a combination of free thinking, free speech,and, of course, free software. Simply put, we speak hacker.</p>
-			<p class="p-2 t-c-b700 bg-c-g100 u-border-radius"><strong>Download graphics:</strong><br /> Graphic <a href="/assets/downloads/values/sh.eps" download>.EPS</a><br />Typography <a href="/assets/downloads/values/sh-typ.eps" download> .EPS</a></p>
-		</div><!--Card-->
-		<div class="Card border border u-border-radius t-c-g200 m-bottom-4 u-clearfix g-1_3__m">
-			<img src="{{site.baseurl}}/assets/images/values/eos.svg" alt="Embrace Open Source" />
-			<img src="{{site.baseurl}}/assets/images/values/eos-typ.svg" alt="Embrace Open Source" />
-			<p class="t-c-b700"><strong class="l-inline-block p-bottom-2">Embrace Open Source</strong><br />DreamHost understands the world is embracing open source technology. From our infrastructure, to our software stack, to our product management tools, we believe that open source products enable us to do great things for ourselves and, more importantly, our customers. Open source gives opportunities for growth, criticism and accountability. We not only leverage the work of others but contribute code back to larger projects that benefit all users - not just ourselves and our customers. That’s the beauty of the open source world.</p>
-			<p class="p-2 t-c-b700 bg-c-g100 u-border-radius"><strong>Download graphics:</strong><br /> Graphic <a href="/assets/downloads/values/eos.eps" download>.EPS</a><br />Typography <a href="/assets/downloads/values/eos-typ.eps" download> .EPS</a></p>
-		</div><!--Card-->
-		<div class="Card border border u-border-radius t-c-g200 m-bottom-4 u-clearfix g-1_3__m">
-			<img src="{{site.baseurl}}/assets/images/values/pf.svg" alt="Practice Flexibility" />
-			<img src="{{site.baseurl}}/assets/images/values/pf-typ.svg" alt="Practice Flexibility" />
-			<p class="t-c-b700"><strong class="l-inline-block p-bottom-2">Practice Flexibility</strong><br />With a full spectrum of hosting services, our flexibility extends beyond our customer offerings and is deeply ingrained in our culture as well. We’ve been known to bend into all sorts of uncomfortable positions to serve customers and our employees better!</p>
-			<p class="p-2 t-c-b700 bg-c-g100 u-border-radius"><strong>Download graphics:</strong><br /> Graphic <a href="/assets/downloads/values/pf.eps" download>.EPS</a><br />Typography <a href="/assets/downloads/values/pf-typ.eps" download> .EPS</a></p>
-		</div><!--Card-->
-	</div><!--Card__wrapper-->
-	<div class="Card__wrapper">
-		<div class="Card border border u-border-radius t-c-g200 m-bottom-4 u-clearfix g-1_3__m">
-			<img src="{{site.baseurl}}/assets/images/values/shs.svg" alt="Provide Superhero Service" />
-			<img src="{{site.baseurl}}/assets/images/values/shs-typ.svg" alt="Provide Superhero Service" />
-			<p class="t-c-b700"><strong class="l-inline-block p-bottom-2">Provide Superhero Service</strong><br />DreamHost strives to max out the value and customer service we put into everything we do (see Superhero Service). We hire authentically super people, not those faceless detached robots you get at other places, because we believe that empowered employees can make better decisions and deliver top shelf service. We cultivate employee development with significant investment to grow the knowledge base and skillset of our employees.</p>
-			<p class="p-2 t-c-b700 bg-c-g100 u-border-radius"><strong>Download graphics:</strong><br /> Graphic <a href="/assets/downloads/values/shs.eps" download>.EPS</a><br />Typography <a href="/assets/downloads/values/shs-typ.eps" download> .EPS</a></p>
-		</div>
-		<div class="Card border border u-border-radius t-c-g200 m-bottom-4 u-clearfix g-1_3__m">
-			<img src="{{site.baseurl}}/assets/images/values/if.svg" alt=">Be Irreverent &amp; Fun" />
-			<img src="{{site.baseurl}}/assets/images/values/if-typ.svg" alt="Provide Superhero Service" />
-			<p class="t-c-b700"><strong class="l-inline-block p-bottom-2">Be Irreverent &amp; Fun</strong><br />While we take our customers and the services we provide very seriously, we don’t take OURSELVES so seriously that dealing with us becomes an exercise in being PC. Life has “edges.” We tend to hangout around those edges in the way we do business, and that’s evident in the way we communicate. You are far more likely to encounter an off-the-wall, irreverent comment from us than you are to be subjected to corporate double-speak.</p>
-			<p class="p-2 t-c-b700 bg-c-g100 u-border-radius"><strong>Download graphics:</strong><br /> Graphic <a href="/assets/downloads/values/if.eps" download>.EPS</a><br />Typography <a href="/assets/downloads/values/if-typ.eps" download> .EPS</a></p>
-		</div>
-	</div><!--Card__wrapper-->
+<div class="m-bottom-4">
+<h3 class= "t-bold">Brand Values</h3>
+<p>DreamHost is a team of experienced web experts. We understand the importance of getting our clients’ content online and in front of their audience quickly. We promise to support their efforts using the latest open source tech and awardwinning support. Our core values were created and adopted by employees, and reflect DreamHost’s brand promise and our actual culture.</p>
 </div>
-<hr />
-<h2 class="m-bottom-4">Tone</h2>
 
-<p class="m-bottom-4"><strong>Approachable.</strong> We’re here to help.  We take complicated technical concepts and distill them down into plain english, without judgment or condescension.  We speak to our customer’s experience level because we value them.</p>
-<p class="m-bottom-4"><strong>Conversational.</strong> We aren’t overly-formal, contrived or corporate. We’re people first, marketers second. We never sound scripted or phony.</p>
-<p class="m-bottom-4"><strong>Fun &amp; irreverent.</strong> We are playful and don’t mind a little humor. We try to keep it PG-13, but no promises.</p>
-<p class="m-bottom-4"><strong>Authentic.</strong> We get straight to the point. We’re candid, don’t dance around touchy subjects, and are always real with people.</p>
+{% for principles in site.data.principles %}
+<div class="bg-c-g100 p-4 p-bottom-0 rounded-container">
+ <div class="row m-bottom-4 flex">
+  <div class="col-12 col-md-6">
+   <h4 class="t-bold">{{principles.heading}}</h4>
+   <p>{{principles.description}}</p>
+  </div>
+  <div class="col-12 col-md-3">
+   <div class="Card bg-c-w100 rounded-container p-0">
+	 <img src="{{site.baseurl}}/assets/downloads/principles/{{principles.url}}" alt="{{principles.heading}}" />
+	 <p class="rounded-bottom p-2 bg-c-b300 t-center t-c-w100 ">Format: <a class="t-c-w100"  href ="{{site.baseurl}}/assets/downloads/principles/{{principles.url}}" download>SVG</a> </p>
+   </div>
+  </div>
+   <div class="col-12 col-md-3">
+   <div class="Card bg-c-w100 rounded-container p-0 h-auto">
+	 <img src="{{site.baseurl}}/assets/downloads/principles/{{principles.url-typ}}" alt="{{principles.heading}}" />
+	 <p class="rounded-bottom p-2 bg-c-b300 t-center t-c-w100 ">Format: <a class="t-c-w100"  href ="{{site.baseurl}}/assets/downloads/principles/{{principles.url-typ}}" download>SVG</a> </p>
+   </div>
+  </div>
+ </div>
+</div>
+{% endfor %}
 
-<hr />
 
-<h2 class="m-bottom-4">Style</h2>
 
-<p class="m-bottom-4"><strong>People-Centric.</strong> There are real people working at DreamHost.  There’s real people using DreamHost.  We’ll never lose sight of that.</p>
-<p class="m-bottom-4"><strong>Playful.</strong> We’re fun! We feel positive, upbeat, and alive.</p>
-<p class="m-bottom-4"><strong>Relevant.</strong> We aren’t dated. We use modern best practices and aesthetics.</p>
-<p class="m-bottom-4"><strong>Simple.</strong> We’re clean, not cluttered. Function over form. A goal is always clear and effortless to achieve.</p>
-
-<hr />
-
-<h2 class="m-bottom-4">Personality</h2>
-
-<p class="m-bottom-4"><strong>Educators.</strong> You can do what you want with us.  We’ll tell you how.</p>
-<p class="m-bottom-4"><strong>Engaged.</strong> We’re not just here to take our users’ money.  We’re their partner.</p>
-<p class="m-bottom-4"><strong>Proactive.</strong> When we see something needing improvement, we improve it.</p>
-<p class="m-bottom-4"><strong>Creative.</strong> We’re built by dreamers, for dreamers. The sky’s the limit, bitches!</p>
-<p class="m-bottom-4"><strong>Enthusiastic.</strong> People, you can do it. Our passion is infectious.</p>
-<p class="m-bottom-4"><strong>Inclusive.</strong> We’re all just people, tryin’ to make it in this world.  Love and respect is key.</p>
-<p class="m-bottom-4"><strong>Welcoming.</strong> We are your host on the web. Come over and we’ll take care of you.</p>
-
-<hr>
+<h3 class ="t-bold t-right m-0">  Next: <a href="">Color →</a></h3> 
