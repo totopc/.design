@@ -5,7 +5,7 @@
 
         <li class="design__item sidebar__nav__item transition--all flex flex-column is-uncollapsed">
 
-            <ul class="subnav__subnav bg-c-w100 {% if page.url == '/' %} bg-black{% endif %} p-2 t-0">
+            <ul class="subnav__subnav bg-c-w100 {% if page.url == '/.design/' %} bg-black{% endif %} p-2 t-0">
                 <li>
                     <p class=" p-3 t-c-b300 l-flex flex-justify-between t-ls-1">
                         DESIGN GUIDELINES
@@ -13,7 +13,7 @@
                 </li>
                 <li>
                     <a href="{{site.baseurl}}/design/guidelines" class="l-flex flex-justify-between{% if page.url =='/design/guidelines/' %} is-active{% endif %}
-                    {% if page.url == '/' %}t-c-w100{% endif %}">
+                    {% if page.url == '/.design/' %}t-c-w100{% endif %}">
                         Guidelines
                     </a>
                 </li>
@@ -21,18 +21,18 @@
                 <li>
                     <a href="{{site.baseurl}}/principles" class="l-flex flex-justify-between{% if page.url == 
                         '/principles/' %} is-active{% endif %}
-                    {% if page.url == '/' %}t-c-w100{% endif %}">
+                    {% if page.url == '/.design/' %}t-c-w100{% endif %}">
                         Principles
                     </a>
                 </li>
                 <li><a href="{{site.baseurl}}/mascot" class="l-flex flex-justify-between{% if page.url == '/mascot/' %} is-active{% endif %}
-                    {% if page.url == '/' %}t-c-w100{% endif %}">Mascot</a></li>
+                    {% if page.url == '/.design/' %}t-c-w100{% endif %}">Mascot</a></li>
 
                 
 
 
                 <li>
-                    <a class="l-flex flex-justify-between {% if page.url contains '/brand/' %}is-uncollapsed{% endif %}{% if page.url == '/' %}t-c-w100{% endif %}"
+                    <a class="l-flex flex-justify-between {% if page.url contains '/brand/' %}is-uncollapsed{% endif %}{% if page.url == '/.design/' %}t-c-w100{% endif %}"
                         href="javascript:;">
                         Brand
 
@@ -43,21 +43,21 @@
                                 fill="#0073EC" />
                         </svg>
                     </a>
-                    <ul class="subnav__subnav__subnav bg-c-b50 {% if page.url == '/' %} bg-black{% endif %} t-0">
+                    <ul class="subnav__subnav__subnav bg-c-b50 {% if page.url == '/.design/' %} bg-black{% endif %} t-0">
                         <!-- LEVEL 3 -->
 
                         <li><a href="{{site.baseurl}}/brand" class="{% if page.url == '/brand/' %}is-active{% endif
-                                %}{% if page.url == '/' %}t-c-w100{% endif %}">Essence</a></li>
+                                %}{% if page.url == '/.design/' %}t-c-w100{% endif %}">Essence</a></li>
                         <!--<li><a href="{{site.baseurl}}/brand/positioning" class="{% if page.url == "/brand/positioning/" %}is-active{% endif %}
-                    {% if page.url == '/' %}t-c-w100{% endif %}"">Positioning</a></li>-->
+                    {% if page.url == '/.design/' %}t-c-w100{% endif %}"">Positioning</a></li>-->
                         <li><a href="{{site.baseurl}}/brand/identity" class="{% if page.url == '/brand/identity/''
                                 %}is-active{% endif %}
-                    {% if page.url == '/' %}t-c-w100{% endif %}">Identity</a></li>
+                    {% if page.url == '/.design/' %}t-c-w100{% endif %}">Identity</a></li>
                     </ul>
                 </li>
 
                 <li>
-                    <a class="l-flex flex-justify-between {% if page.url contains '/illustrations/' %}is-uncollapsed{% endif %}{% if page.url == '/' %}t-c-w100{% endif %}"
+                    <a class="l-flex flex-justify-between {% if page.url contains '/illustrations/' %}is-uncollapsed{% endif %}{% if page.url == '/.design/' %}t-c-w100{% endif %}"
                         href="javascript:;">
                         Illustrations
                         <svg class="Icon Icon--size-1 Icon--down t-c-g300" xmlns="http://www.w3.org/2000/svg" width="12"
@@ -67,21 +67,21 @@
                                 fill="#0073EC" />
                         </svg>
                     </a>
-                    <ul class="subnav__subnav__subnav bg-c-b50 {% if page.url == '/' %} bg-black{% endif %} t-0">
+                    <ul class="subnav__subnav__subnav bg-c-b50 {% if page.url == '/.design/' %} bg-black{% endif %} t-0">
                         <!-- LEVEL 3 -->
 
                         <li><a href="{{site.baseurl}}/illustrations/guidelines" class="{% if page.url == '/illustrations/guidelines/' %}is-active{% endif %}
-                    {% if page.url == '/' %}t-c-w100{% endif %}">Guidelines</a></li>
+                    {% if page.url == '/.design/' %}t-c-w100{% endif %}">Guidelines</a></li>
                         <li><a href="{{site.baseurl}}/illustrations/assets" class="{% if page.url =='/illustrations/assets/' %}is-active{% endif %}
-                    {% if page.url == '/' %}t-c-w100{% endif %}">Illustrations</a></li>
+                    {% if page.url == '/.design/' %}t-c-w100{% endif %}">Illustrations</a></li>
                         <li><a href="{{site.baseurl}}/illustrations/mascot" class="{% if page.url == '
                                 /illustrations/mascot/' %}is-active{% endif %}
-                    {% if page.url == '/' %}t-c-w100{% endif %}">Mascot</a></li>
+                    {% if page.url == '/.design/' %}t-c-w100{% endif %}">Mascot</a></li>
                     </ul>
                 </li>
 
                 <li>
-                    <a class="l-flex flex-justify-between {% if page.url contains '/iconography/' %}is-uncollapsed{% endif %}{% if page.url == '/' %}t-c-w100{% endif %}"
+                    <a class="l-flex flex-justify-between {% if page.url contains '/iconography/' %}is-uncollapsed{% endif %}{% if page.url == '/.design/' %}t-c-w100{% endif %}"
                         href="javascript:;">
                         Iconography
                         <svg class="Icon Icon--size-1 Icon--down t-c-g300" xmlns="http://www.w3.org/2000/svg" width="12"
@@ -91,13 +91,13 @@
                                 fill="#0073EC" />
                         </svg>
                     </a>
-                    <ul class="subnav__subnav__subnav bg-c-b50 {% if page.url == '/' %} bg-black{% endif %} t-0">
+                    <ul class="subnav__subnav__subnav bg-c-b50 {% if page.url == '/.design/' %} bg-black{% endif %} t-0">
                         <!-- LEVEL 3 -->
 
                         <li><a href="{{site.baseurl}}/iconography/product" class="{% if page.url =='/iconography/product/' %}is-active{% endif %}
-                    {% if page.url == '/' %}t-c-w100{% endif %}">Product</a></li>
+                    {% if page.url == '/.design/' %}t-c-w100{% endif %}">Product</a></li>
                         <li><a href="{{site.baseurl}}/iconography/standard/" class="{% if page.url == '/iconography/standard/' %}is-active{% endif %}
-                    {% if page.url == '/' %}t-c-w100{% endif %}">Standard</a></li>
+                    {% if page.url == '/.design/' %}t-c-w100{% endif %}">Standard</a></li>
 
                     </ul>
                 </li>
