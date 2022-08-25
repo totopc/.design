@@ -1995,6 +1995,8 @@ Utilities
 
 .bg-c-w100 { background: #ffffff !important; }
 
+.bg-c-b900 { background: #111111 !important; }
+
 .t-c-b700 { color: #071c26 !important; }
 
 .t-c-b500 { color: #1176A5 !important; }
@@ -2040,6 +2042,8 @@ Utilities
 .t-c-r100 { color: #FFCCCE !important; }
 
 .t-c-w100 { color: #ffffff !important; }
+
+.t-c-b900 { color: #111111 !important; }
 
 /*
 Combo Colors
@@ -4363,3 +4367,9 @@ a[name]:before { display: block; content: " "; margin-top: -5rem; height: 5rem; 
   .h-99__l { height: 99% !important; }
   .h-100__l { height: 100% !important; }
   .h-screen__l { height: 50vh !important; } }
+
+.colorpill { cursor: pointer; }
+
+.colorpill span { visibility: hidden; }
+
+.colorpill a:hover + span { visibility: visible; }

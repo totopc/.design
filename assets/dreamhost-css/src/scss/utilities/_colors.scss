@@ -60,6 +60,9 @@ Color Utilities
 //white
 .bg-c-w100 {background: $c-w100 !important}
 
+//black
+.bg-c-b900 {background: $c-b900 !important}
+
 //Typography Colors
 
 // blue
@@ -100,6 +103,9 @@ Color Utilities
 
 //white
 .t-c-w100 {color: $c-w100 !important}
+
+//black
+.t-c-b900 {color: $c-b900!important}
 
 /*
 Combo Colors
@@ -144,6 +150,8 @@ Combo Colors
 //white
 .c-c-w100 {background: $c-w100 !important; color: $c-b700 !important}
 
+
+
 /*
 Legacy color/class utilities still in use somewhere
 TODO: DEPRECATE THESE, NEPHEW
@@ -154,6 +162,7 @@ TODO: DEPRECATE THESE, NEPHEW
 .bg-light-grey {background: $light-grey !important}
 .bg-black {background: $black !important}
 
+
 .t-blue {color: $blue !important}
 .t-dark-blue {color: $dark-blue !important}
 .t-green {color: $green !important}
@@ -161,3 +170,4 @@ TODO: DEPRECATE THESE, NEPHEW
 .t-red {color: $red !important}
 .t-dark-grey {color: $dark-grey !important}
 .t-black {color: $black !important}
+

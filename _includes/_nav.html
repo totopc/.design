@@ -17,6 +17,14 @@
                         Guidelines
                     </a>
                 </li>
+                
+                <li>
+                    <a href="{{site.baseurl}}/colors" class='l-flex flex-justify-between{% if page.url == 
+                        "/colors/" %} is-active{% endif %}
+                    {% if page.url =="/" %}t-c-w100{% endif %}'>
+                        Colors
+                    </a>
+                </li>
 
                 <li>
                     <a href="{{site.baseurl}}/principles" class='l-flex flex-justify-between{% if page.url == 
@@ -82,7 +90,7 @@
                 </li>
 
                 <li>
-                    <a class='l-flex flex-justify-between {% if page.url contains "/iconography/"" %}is-uncollapsed{% endif %}{% if page.url == "/" %}t-c-w100{% endif %}'
+                    <a class='l-flex flex-justify-between {% if page.url contains "/iconography/" %}is-uncollapsed{% endif %}{% if page.url == "/" %}t-c-w100{% endif %}'
                         href="javascript:;">
                         Iconography
                         <svg class="Icon Icon--size-1 Icon--down t-c-g300" xmlns="http://www.w3.org/2000/svg" width="12"
