@@ -7,10 +7,10 @@ toc: false
 
 
 <div class="container-fluid bg-none ">
-<div class="p-4  ">
-  <span  class="flex flex-align-center h1__land t-bold m-bottom-0 t-c-w100 m-bottom-4">{{page.title}}</span>
+<div class="m-top-16">
+  <span  class="flex-justify-start__m t-5 t-6__m  flex flex-align-center flex-justify-center t-bold m-bottom-0 t-c-w100 m-bottom-4">{{page.title}}</span>
 
-  	<a href="{{site.baseurl}}/principles" class="Button t-3 rounded-pill t-black border-none bg-c-w100 m-auto  ">Start</a>
+  	<a href="{{site.baseurl}}/principles" class="Button t-1 t-3__m l-none__m rounded-pill flex flex-align-center flex-justify-center t-black border-none  w-50 bg-c-w100 m-auto  ">Start</a>
 
 <div>
   <div class="l-float-right  l-pos-fixed  l-pos-absolute__m z-0 l-pos-top-right no-scroll">
