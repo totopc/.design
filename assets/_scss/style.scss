@@ -1,4 +1,4 @@
-@import '../dreamhost-css/src/scss/style.scss';
+@import '../../node_modules/dreamhost-css/src/scss/style.scss';
 @import './users-module.scss';
 
 /* Dreamhost.design Specific Overrides */
@@ -92,7 +92,7 @@ code.hljs {
     top: 0;
 	padding: 0 .5rem;
 	z-index: $z-3;
-	background-color: $c-w100!important;
+	background-color: $c-b300 !important;
 	@media (min-width: $mq-nav) {
 		padding: 0 1.6rem;	
 	}
@@ -105,61 +105,12 @@ code.hljs {
     position: -webkit-sticky;
 	top: 0;
 	z-index: $z-3;
-	background-color: $c-w100 !important;
+	background-color: $c-b300 !important;
 	@media (min-width: $mq-nav) {
 		padding: 1rem;
 	}
 }
   
-
-//landing page only
-.logo__land{
-    grid-area: logo;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-	padding: 0 .5rem;
-	z-index: $z-3;
-	background-color: $c-black!important;
-	@media (min-width: $mq-nav) {
-		padding: 0 1.6rem;	
-		z-index: $z-1;
-	}
-}
-
-.nav__land{
-    grid-area: nav;
-    line-height: 1; 
-    position: sticky;
-    position: -webkit-sticky;
-	top: 0;
-	z-index: $z-3;
-	background-color: $c-black !important;
-	@media (min-width: $mq-nav) {
-		padding: 1rem;
-		z-index: $z-1;
-	}
-}
-
-.toggle__land{
-	height: auto;
-	line-height: 1;
-	background-color: initial;
-    border: initial;
-    padding: 0; margin: 0;
-	color: #fff;
-	font-size: 1rem;
-    display: block;
-	line-height: 1;
-	padding: 1.25rem;
-	min-width: 3.5rem;
-	display: flex;
-	align-content: center;
-}
-
-///end
-
-
 main{
 	grid-area: main;
 	overflow: hidden;
@@ -222,12 +173,11 @@ main{
 // Brand
 
 .brand{
-
-	height: 4rem;
-    svg{
-	  padding: 1rem;
-	  height: auto;
-	  margin-bottom: 0;
+    height: 2.5rem;
+    img{
+      width: auto;
+      height: 100%;
+      margin-bottom: 0;
     }
   }
 
@@ -248,12 +198,11 @@ main{
 }
 
 .toggle{
-	height: auto;
 	line-height: 1;
 	background-color: initial;
     border: initial;
     padding: 0; margin: 0;
-	color: #000;
+	color: #fff;
 	font-size: 1rem;
     display: block;
 	line-height: 1;
@@ -290,26 +239,18 @@ main{
 
 		> a{
 			padding: 1rem 1rem;
-			border-left: rgba(0,0,0,0) 8px solid  ;
+			border-radius: .5rem;
 			&:hover{
-				background-color: rgba(0,115,236,.05);
-				font-weight: bold;
-				border-left: #0073EC 8px solid;
+				background-color: rgba(255,255,255,0.2);
 			}
 			&.is-uncollapsed{
-				background-color: rgba(0,115,236,.05);
-				border-left: #0073EC 8px solid;
+				background-color: rgba(100,100,100,0.05);
 			}
 			&.is-active{
-				background-color: rgba(0,115,236,.05);
-				font-weight: bold;
-				border-left: #0073EC 8px solid;
 				.Icon{
-					color: $c-b300 ;
-					
+					color: $c-b300 !important;
 				}
 			}
-
 		}
 	}
 }
@@ -317,23 +258,21 @@ main{
 
 .subnav__subnav__subnav{ // Level 3
 	display: none;
+	padding: 1rem 0;
 	> li a {
 		display: block;
 		line-height: 1;
 		padding: 1rem 2rem;
 		transition: .33s background-color;
-		border-left: #0073EC 8px solid;
+		border-radius: .5rem;
 		&:hover{
-			font-weight: bold;
+			background-color: rgba(255,255,255,0.2);
 		}
 		&.active, &.is-active{
-			color: $c-black;
 			// background-color: rgba(100,100,100,0.1);
+			color: $c-b300;
 			font-weight: bold;
 		}
-
-
-
 	}
 }
 
@@ -349,7 +288,7 @@ main{
 }
 
 .sidebar a{
-	color: $c-black;
+	color: #434F58; // softer feeling anchor colors
 	&:hover{
 	text-decoration: none;
 		.Icon{
@@ -387,26 +326,7 @@ main{
 .rounded-circle{
     border-radius: 50%;
 }
-.rounded-container{
-    border-radius: 16px;
-} 
-.rounded-pill{
-    border-radius: 46px;
-} 
-.rounded-top{
-    border-radius: 16px 16px 0 0;
-} 
-.rounded-bottom{
-    border-radius: 0 0 16px 16px;
-} 
-
-.rounded-left{
-    border-radius: 16px 0 0 16px;
-} 
-.rounded-right{
-    border-radius: 0 16px 16px 0  ;
-} 
-
+  
 a[name]:before { 
 	display: block; 
     content: " "; 
@@ -430,71 +350,3 @@ a[name]:before {
 .no-toc{
 	grid-column: span 2;
 }
-
-.shadow-high{
-	box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
-}
-
-.shadow-medium{
-	box-shadow: 0px 6px 24px rgba(38, 45, 118, 0.08);
-}
-
-.shadow-default{
-	box-shadow: 0px 2px 4px rgba(38, 45, 118, 0.08);
-}
-
-
-.t-ls-1{
-	letter-spacing: .25rem;
-}
-
-.h-0 {height: 0 !important;}
-.h-1 {height: 1% !important;}
-.h-25 {height: 25% !important;}
-.h-33 {height: 33.33% !important;}
-.h-50 {height: 50% !important;}
-.h-66 {height: 66.66% !important;}
-.h-75 {height: 75% !important;}
-.h-99 {height: 99% !important;}
-.h-100 {height: 100% !important;}
-.h-auto {height: auto !important;}
-.h-screen {height: 50vh !important;}
-
-@media screen and (min-height: $medium-breakpoint){
-	.h-0__m {height: 0 !important;}
-	.h-1__m {height: 1% !important;}
-	.h-25__m {height: 25% !important;}
-	.h-33__m {height: 33.33% !important;}
-	.h-50__m {height: 50% !important;}
-	.h-66__m {height: 66.66% !important;}
-	.h-75__m {height: 75% !important;}
-	.h-99__m {height: 99% !important;}
-	.h-100__m {height: 100% !important;}
-	.h-screen__m {height: 50vh !important;}
-}
-
-@media screen and (min-height: $large-breakpoint){
-	.h-0__l {height: 0 !important;}
-	.h-1__l {height: 1% !important;}
-	.h-25__l {height: 25% !important;}
-	.h-33__l {height: 33.33% !important;}
-	.h-50__l {height: 50% !important;}
-	.h-66__l {height: 66.66% !important;}
-	.h-75__l {height: 75% !important;}
-	.h-99__l {height: 99% !important;}
-	.h-100__l {height: 100% !important;}
-	.h-screen__l {height: 50vh !important;}
-}
-
-// Colour Pils
-.colorpill {
-	cursor: pointer;
-	span {
-		visibility: hidden;
-	}
-	a:hover + span{
-		visibility: visible;
-  
-	}
-	
-  }
