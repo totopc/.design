@@ -19,10 +19,7 @@ in their execution. They should evoke feelings of friendliness and warmth. When 
     <div class="col-12 col-md-6">
      <div class= "Card bg-c-w100 rounded-container p-0 ">
       <div class= "p-4">
-       <img class="flex m-0 w-100" src="{{site.baseurl}}/assets/images/illustration_new/stock_illustration01.svg" alt="Stock Illustration Example 1" />
-      </div>
-            <div class= "p-4">
-       <img class="flex m-0 w-100" src="{{site.baseurl}}/assets/images/illustration/assembly_do.svg" alt="Stock Illustration Example 1" />
+       <img class="flex m-0 w-100" src="{{site.baseurl}}/assets/images/illustra_new/stock_illustration01.svg" alt="Stock Illustration Example 1" />
       </div>
   </div>
 </div>
@@ -31,7 +28,7 @@ in their execution. They should evoke feelings of friendliness and warmth. When 
  <div class="col-12 col-md-6">
      <div class= "Card bg-c-w100 rounded-container p-0 ">
       <div class= "p-4">
-       <img class="flex m-0 w-100" src="{{site.baseurl}}/assets/images/illustration_new/stock_illustration02.svg" alt="Stock Illustration Example 2" />
+       <img class="flex m-0 w-100" src="{{site.baseurl}}/assets/images/illustra_new/stock_illustration02.svg" alt="Stock Illustration Example 2" />
       </div>
   </div>
  </div>
@@ -45,7 +42,7 @@ in their execution. They should evoke feelings of friendliness and warmth. When 
     <div class="col-12 col-md-6">
      <div class= "Card bg-c-w100 rounded-container p-0 ">
       <div class= "p-4">
-       <img class="flex m-0 w-100" src="{{site.baseurl}}/assets/images/illustration_new/representational_ui01.png" alt="Representational UI 1" />
+       <img class="flex m-0 w-100" src="{{site.baseurl}}/assets/images/illustra_new/representational_ui01.png" alt="Representational UI 1" />
       </div>
   </div>
 </div>
@@ -53,7 +50,7 @@ in their execution. They should evoke feelings of friendliness and warmth. When 
  <div class="col-12 col-md-6">
      <div class= "Card bg-c-w100 rounded-container p-0 ">
       <div class= "p-4">
-       <img class="flex m-0 w-100" src="{{site.baseurl}}/assets/images/illustration_new/representational_ui02.png" alt="Representational UI 2" />
+       <img class="flex m-0 w-100" src="{{site.baseurl}}/assets/images/illustra_new/representational_ui02.png" alt="Representational UI 2" />
       </div>
   </div>
 </div>
@@ -69,7 +66,7 @@ in their execution. They should evoke feelings of friendliness and warmth. When 
     <div class="col-12 col-md-6">
      <div class= "Card bg-c-w100 rounded-container p-0 ">
       <div class= "p-4">
-       <img class="flex m-auto" src="{{site.baseurl}}/assets/images/illustration_new/illustration_usage_do.svg" alt="Illustration Color Do" />
+       <img class="flex m-auto" src="{{site.baseurl}}/assets/images/illustra_new/illustration_usage_do.svg" alt="Illustration Color Do" />
       </div>
       <div class="border-c-b300 border-top-3 border-solid p-4">
       <h5 class="t-bold t-c-b300">Do</h5>
@@ -81,7 +78,7 @@ Do use the color pallete to create good contrast and color combinations.</p>
       <div class="col-12 col-md-6">
      <div class= "Card bg-c-w100 rounded-container p-0 ">
       <div class= "p-4">
-       <img class="flex m-auto" src="{{site.baseurl}}/assets/images/illustration_new/illustration_usage_dont.svg" alt="Illustration Color Don't" />
+       <img class="flex m-auto" src="{{site.baseurl}}/assets/images/illustra_new/illustration_usage_dont.svg" alt="Illustration Color Don't" />
       </div>
       <div class="border-c-r300 border-top-3 border-solid p-4">
       <h5 class="t-bold t-c-r300">Don't</h5>
@@ -99,7 +96,7 @@ Don’t use illustrations directly after download without recoloring to fit the 
     <div class="col-12 col-md-6">
      <div class= "Card bg-c-w100 rounded-container p-0  ">
       <div class= "p-4 bg-c-b300 rounded-top ">
-       <img class="flex m-auto" src="{{site.baseurl}}/assets/images/illustration_new/assembly_do.svg" alt="Assembly Do" />
+       <img class="flex m-auto" src="{{site.baseurl}}/assets/images/illustra_new/assembly_do.svg" alt="Assembly Do" />
       </div>
       <div class="border-c-b300 border-top-3 border-solid p-4">
       <h5 class="t-bold t-c-b300">Do</h5>
@@ -111,7 +108,7 @@ Don’t use illustrations directly after download without recoloring to fit the 
     <div class="col-12 col-md-6">
      <div class= "Card bg-c-w100 rounded-container p-0  ">
       <div class= "p-4 bg-c-b300 rounded-top ">
-     <img class="flex m-auto" src="{{site.baseurl}}/assets/images/illustration_new/assembly_dont.svg" alt="Assembly Don't" />
+     <img class="flex m-auto" src="{{site.baseurl}}/assets/images/illustra_new/assembly_dont.svg" alt="Assembly Don't" />
       </div>
       <div class="border-c-r300 border-top-3 border-solid p-4">
       <h5 class="t-bold t-c-r300">Don't</h5>
@@ -134,32 +131,32 @@ Don’t use illustrations directly after download without recoloring to fit the 
 <div class="p-bottom-4">
 <h4 class="t-bold">Blog Featured Image Template</h4>
 <p>Use this template size when creating a blog image that doesn’t have any content.</p>
-     <img class="flex m-auto  m-bottom-4" src="{{site.baseurl}}/assets/images/illustration_new/template_01.svg" alt="Blog Template" />
+     <img class="flex m-auto  m-bottom-4" src="{{site.baseurl}}/assets/images/illustra_new/template_01.svg" alt="Blog Template" />
 </div>
 
 <div class="p-bottom-4">
 <h4 class="t-bold">Blog Social Card Template</h4>
 <p>Use this template size when creating a blog image that requires to have a 50% text and 50% graphics.</p>
-     <img class="flex m-auto m-bottom-4" src="{{site.baseurl}}/assets/images/illustration_new/template_02.svg" alt="Social Card Template" />
+     <img class="flex m-auto m-bottom-4" src="{{site.baseurl}}/assets/images/illustra_new/template_02.svg" alt="Social Card Template" />
 </div>
 
 <div class="p-bottom-4">
 <h4 class="t-bold">Linkedln and Instagram Template</h4>
 <p>Use this template when creating a Linkedln Graphics.</p>
-     <img class="flex m-auto m-bottom-4" src="{{site.baseurl}}/assets/images/illustration_new/template_03.svg" alt="Linkedin and Instagram Template" />
+     <img class="flex m-auto m-bottom-4" src="{{site.baseurl}}/assets/images/illustra_new/template_03.svg" alt="Linkedin and Instagram Template" />
 </div>
 
 
 <div class="p-bottom-4">
 <h4 class="t-bold">Twitter Template</h4>
 <p>Use this template when creating a Twitter Graphics.</p>
-     <img class="flex m-auto m-bottom-4" src="{{site.baseurl}}/assets/images/illustration_new/template_04.svg" alt="Twitter Template" />
+     <img class="flex m-auto m-bottom-4" src="{{site.baseurl}}/assets/images/illustra_new/template_04.svg" alt="Twitter Template" />
 </div>
 
 <div class="p-bottom-4">
 <h4 class="t-bold">Template Usage Example</h4>
 <p>In this example, we break down how to build a blog graphics using the blog template and illustrations.</p>
-     <img class="flex m-auto m-bottom-4" src="{{site.baseurl}}/assets/images/illustration_new/template_usage.svg" alt="Template Usage" />
+     <img class="flex m-auto m-bottom-4" src="{{site.baseurl}}/assets/images/illustra_new/template_usage.svg" alt="Template Usage" />
 </div>
 </div>
 </div>
@@ -185,7 +182,7 @@ When exporting the an illustrataion make sure to follow the instructions that wa
 </div>
 
 <div class="col-12 col-md-3">
-     <img class="flex m-auto m-bottom-4 rounded-container shadow-medium" src="{{site.baseurl}}/assets/images/illustration_new/export_process.png" alt="Template Usage" />
+     <img class="flex m-auto m-bottom-4 rounded-container shadow-medium" src="{{site.baseurl}}/assets/images/illustra_new/export_process.png" alt="Template Usage" />
 
 </div>
 
