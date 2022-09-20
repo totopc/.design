@@ -11,9 +11,7 @@ toc: false
 <h3 class="m-bottom-2 t-bold">Style</h3>
 <p class="m-bottom-4">Aesthetically speaking, our illustrations must be clean, consistent and professional
 in their execution. They should evoke feelings of friendliness and warmth. When illustrating people, we must be thoughtful, diverse, and inclusive.</p>
-<h3 class="m-bottom-2 t-bold">Types of Illustrations</h3>
- <div class="row m-bottom-4">
- </div>
+<h3 class="m-bottom-2 t-bold ">Types of Illustrations</h3>
   <div class="bg-c-g100  p-4 p-bottom-0  rounded-container">
   <h4 class="m-bottom-2 t-bold">Stock Illustrations</h4>
   <p>Stock illustrations are bought online. We use the Good Studio stock library as a base to create graphics.</p>
@@ -22,6 +20,9 @@ in their execution. They should evoke feelings of friendliness and warmth. When 
      <div class= "Card bg-c-w100 rounded-container p-0 ">
       <div class= "p-4">
        <img class="flex m-0 w-100" src="{{site.baseurl}}/assets/images/illustration_new/stock_illustration01.svg" alt="Stock Illustration Example 1" />
+      </div>
+            <div class= "p-4">
+       <img class="flex m-0 w-100" src="{{site.baseurl}}/assets/images/illustration/assembly_do.svg" alt="Stock Illustration Example 1" />
       </div>
   </div>
 </div>
@@ -33,8 +34,8 @@ in their execution. They should evoke feelings of friendliness and warmth. When 
        <img class="flex m-0 w-100" src="{{site.baseurl}}/assets/images/illustration_new/stock_illustration02.svg" alt="Stock Illustration Example 2" />
       </div>
   </div>
+ </div>
 </div>
-  </div>
 
 
 <h4 class="m-bottom-2 t-bold">Representational UI</h4>
@@ -58,6 +59,7 @@ in their execution. They should evoke feelings of friendliness and warmth. When 
 </div>
 </div>
 </div>
+
 
 
    <div class="bg-c-g100  p-4 p-bottom-0 rounded-container">
@@ -89,6 +91,8 @@ Don’t use illustrations directly after download without recoloring to fit the 
      </div>
    </div>
       </div>
+
+  
 <h4 class="m-bottom-2 t-bold">Assembly</h4>
 <p>Add icons, objects and background shapes to convey ideas and messaging.</p>
        <div class="row m-bottom-4">
